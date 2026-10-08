@@ -1,4 +1,5 @@
 import json
+import hashlib
 import os
 import tempfile
 import unittest
@@ -7,10 +8,28 @@ from unittest.mock import patch
 
 from execute_advanced import validate_plan, resolve_campaign, completed_summary, ROOT
 from src.mapdl_session import session_options
-from verify_evidence import verify
+from verify_evidence import verify, check_manifest
+from build_manifest import publication_files
 
 
 class WorkflowTests(unittest.TestCase):
+    def test_readme_edits_preserve_evidence_integrity_check(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root/'evidence').mkdir()
+            (root/'README.md').write_text('Original landing page', encoding='utf-8')
+            evidence = root/'evidence/result.csv'
+            evidence.write_bytes(b'value\n1\n')
+            entries = {name:dict(bytes=path.stat().st_size, sha256=hashlib.sha256(path.read_bytes()).hexdigest())
+                       for name,path in publication_files(root)}
+            self.assertNotIn('README.md', entries)
+            (root/'evidence/file_manifest.json').write_text(json.dumps(dict(files=entries)), encoding='utf-8')
+            (root/'README.md').write_text('Edited on GitHub', encoding='utf-8')
+            self.assertEqual(check_manifest(root), 1)
+            evidence.write_bytes(b'value\n2\n')
+            with self.assertRaisesRegex(ValueError, 'SHA256 differs'):
+                check_manifest(root)
+
     def test_full_plan_count(self):
         plan = validate_plan(json.loads((ROOT/'plans/full_campaign.json').read_text()))
         self.assertEqual(sum(map(len, plan.values())), 48)

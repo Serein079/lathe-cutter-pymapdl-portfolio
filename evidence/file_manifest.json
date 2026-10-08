@@ -1,6 +1,6 @@
 {
   "algorithm": "SHA256",
-  "scope": "Publication files; excludes itself and generated runtime data",
+  "scope": "Publication files; excludes editable README.md, itself and generated runtime data",
   "files": {
     ".env.example": {
       "bytes": 212,
@@ -23,8 +23,8 @@
       "sha256": "c9b1d6f3afe9eb5211d9f7856f9c68601a4ba981ac271e717e41c13e54185ca7"
     },
     "build_manifest.py": {
-      "bytes": 1444,
-      "sha256": "2bbab6e4747aab8ff59d8eec58f64f29e621026503688404fff7fa8aac542b20"
+      "bytes": 1562,
+      "sha256": "c2f30ff6aff5989f36b5027210e58957c5c75cb698c43380e7915206b4a835bf"
     },
     "data/geometry/LatheCutter.anf": {
       "bytes": 51003,
@@ -123,8 +123,8 @@
       "sha256": "fa358cd9f4a4b3941086c99accf4294d112ed2ca5ff4c0cfabed3fe47236d7b8"
     },
     "docs/UPLOAD_GITHUB_CN.md": {
-      "bytes": 3180,
-      "sha256": "afbce5ad509bd75e7e8cc3fce504da7762839c75cd3a6eb52caaf8629381e4f8"
+      "bytes": 3417,
+      "sha256": "8eb680107b81fcb8d4430907377c353b0d4a39b846746781758ea05a715e1f52"
     },
     "evidence/all_cases.csv": {
       "bytes": 26425,
@@ -1298,10 +1298,6 @@
       "bytes": 3374,
       "sha256": "8726f40655107e48303497c73bef051903d1f6cb8dd3779b6a384d6be333c8e4"
     },
-    "README.md": {
-      "bytes": 8045,
-      "sha256": "a197931054a923a41b0c7969d40133a8fbc01ef1ce038153975af3703e10752f"
-    },
     "requirements-lock.txt": {
       "bytes": 951,
       "sha256": "4af4040d734e490909237491a904e9b15134dbfdcbff7d7c89488a3dcb07cbf5"
@@ -1327,8 +1323,8 @@
       "sha256": "ed99b33277aed6ad76672bf49f1aa5ef03f72fb012ae47b891af68991e41abf1"
     },
     "tests/test_workflow.py": {
-      "bytes": 3097,
-      "sha256": "cc0e52831b9ea188266681deb384f94de908989b1e820fab2ba64572e62dfa04"
+      "bytes": 4185,
+      "sha256": "47719896c1c5b05090e327e9054e696714c9c30200a5e84dd0b64650afbbd0ff"
     },
     "thermal_demo.py": {
       "bytes": 5832,
