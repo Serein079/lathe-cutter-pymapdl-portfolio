@@ -1,0 +1,26 @@
+{
+  "execution_date": "2026-10-08",
+  "python_version": "3.12.14",
+  "pymapdl_version": "0.74.1",
+  "mapdl_version": "26.1 Academic Student",
+  "interface": "gRPC",
+  "parallel_mode": "SMP, 2 processes",
+  "structural_cases": 48,
+  "advanced_csv_rows": 47,
+  "thermal_workflows": 1,
+  "png_files": 165,
+  "geometry_sha256": "3224b465091948b2f9bd2d3bd41f8564f0c313fa5ac38920481f17551fa39553",
+  "official_example": "https://github.com/ansys/pymapdl/blob/main/examples/00-mapdl-examples/lathe_cutter.py",
+  "geometry_source": "https://github.com/ansys/example-data/blob/master/geometry/LatheCutter.anf",
+  "publication_changes": "Machine paths normalized to repository-relative paths; temporary APDL table paths anonymized; numerical values and PNGs unchanged.",
+  "snapshot_cases": [
+    "advanced_20261008_dense_mesh_h6",
+    "advanced_20261008_linear_verification_baseline_linear",
+    "advanced_20261008_table_n81",
+    "parity"
+  ],
+  "other_raw_results": "Retained in original local archive; not bundled in public repository.",
+  "historical_source_scope": "Official model reproduced and extended using coding assistance; no original CAD authorship claimed.",
+  "command_trace_note": "commands.apdl is historical evidence, not a standalone replay input. Use Python scripts to generate pressure tables and run a new solve.",
+  "portable_code_scope": "Launcher configuration, plan runner, output paths and offline integrity checks revised for publication; numerical modelling workflow preserved."
+}

@@ -1,0 +1,11 @@
+LIST ELEMENT TYPES FROM        1 TO        1 BY        1
+   *****MAPDL VERIFICATION RUN ONLY*****
+     DO NOT USE RESULTS FOR PRODUCTION
+
+ ELEMENT TYPE        1 IS SOLID187     3-D 10-NODE STRUCTURAL SOLID
+  KEYOPT( 1- 6)=        0      0      0        0      0      0
+  KEYOPT( 7-12)=        0      0      0        0      0      0
+  KEYOPT(13-18)=        0      0      0        0      0      0
+
+ CURRENT NODAL DOF SET IS  UX    UY    UZ  
+  THREE-DIMENSIONAL MODEL

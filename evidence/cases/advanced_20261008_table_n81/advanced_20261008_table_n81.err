@@ -1,0 +1,45 @@
+/COM,ANSYS RELEASE 2026 R1           BUILD 26.1      UP20260202       20:03:12
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ Line 20 on area 3 is not on the area within a tolerance.  This area     
+ could have problems in future Boolean operations.  (See the BTOL        
+ command).                                                               
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ Line 18 on area 5 is not on the area within a tolerance.  This area     
+ could have problems in future Boolean operations.  (See the BTOL        
+ command).                                                               
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ Shape testing revealed that 2 of the 22199 new or modified elements     
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ Both solid model and finite element model boundary conditions have been 
+ applied to this model.  As solid loads are transferred to the nodes or  
+ elements, they can overwrite directly applied loads.                    
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ Previous testing revealed that 2 of the 22199 selected elements violate 
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ The program chosen initial timestep/load-factor is arbitrary.  It is    
+ necessary for the user to supply a suitable initial                     
+ timestep/load-factor through the NSUB or DELTIM command for             
+ convergence and overall efficiency.                                     
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ Some entities requested in the *VGET were undefined.                    
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ Some entities requested in the *VGET were undefined.                    

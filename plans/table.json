@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "case": "n10",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "global_size": 0.01
+    },
+    {
+      "case": "n21",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 21,
+      "global_size": 0.01
+    },
+    {
+      "case": "n41",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 41,
+      "global_size": 0.01
+    },
+    {
+      "case": "n81",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+*****  MAPDL SOLVE    COMMAND  *****
+
+ TRANSFER SOLID MODEL BOUNDARY CONDITIONS TO FINITE ELEMENT MODEL
+      SYMM/ASYM CONSTRAINTS      FROM AREAS         =    242
+
+ *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
+                ---GIVE SUGGESTIONS ONLY---
+
+ ELEMENT TYPE         1 IS SOLID285. KEYOPT(1) IS ALREADY SET AS SUGGESTED.
+
+
+   *****MAPDL VERIFICATION RUN ONLY*****
+     DO NOT USE RESULTS FOR PRODUCTION
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . UX   UY   UZ   HDSP
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .STATIC (STEADY-STATE)
+   NONLINEAR GEOMETRIC EFFECTS . . . . . . . . . .ON
+   NEWTON-RAPHSON OPTION . . . . . . . . . . . . .PROGRAM CHOSEN   
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
+
+ *** NOTE ***                            ELAPSED TIME =       0.000   TIME= 00:00:00
+ Present time 0 is less than or equal to the previous time.  Time will   
+ default to 1.                                                           
+
+ *** NOTE ***                            ELAPSED TIME =       0.000   TIME= 00:00:00
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** NOTE ***                            ELAPSED TIME =       0.000   TIME= 00:00:00
+ The conditions for direct assembly have been met.  No .emat or .erot    
+ files will be produced.                                                 
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ The program chosen initial timestep/load-factor is arbitrary.  It is    
+ necessary for the user to supply a suitable initial                     
+ timestep/load-factor through the NSUB or DELTIM command for             
+ convergence and overall efficiency.                                     
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .  1000
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+      START WITH TIME STEP FROM PREVIOUS SUBSTEP .   YES
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   CONVERGENCE CONTROLS. . . . . . . . . . . . . .USE DEFAULTS
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS. . . . . . . . . . . .ALL DATA WRITTEN
+                                                  FOR THE LAST SUBSTEP
+
+
+
+ Range of element maximum matrix coefficients in global coordinates
+ Maximum = 107100.62 at element 0.                                       
+ Minimum = 2509.74134 at element 0.                                      
+
+   *** ELEMENT MATRIX FORMULATION TIMES
+     TYPE    NUMBER     ENAME   TOTAL ELAPSED   AVG ELAPSED
+
+        1      4863  SOLID285          0.0000   0.000000000
+ Elapsed Time at end of element matrix formulation = 0.                  
+
+ ALL CURRENT MAPDL DATA WRITTEN TO FILE NAME= 
+  FOR POSSIBLE RESUME FROM THIS POINT
+     FORCE CONVERGENCE VALUE  =  0.3827      CRITERION=  0.1913E-02
+     VOLUME CONVERGENCE VALUE =   0.000      CRITERION=  0.1000E-05
+
+ SPARSE MATRIX DIRECT SOLVER.
+  Number of equations =        4750,    Maximum wavefront =      0
+  Memory available (MB) =    0.0    ,  Memory required (MB) =    0.0    
+
+ Sparse solver maximum pivot= 0 at node 0 .                              
+ Sparse solver minimum pivot= 0 at node 0 .                              
+ Sparse solver minimum pivot in absolute value= 0 at node 0 .            
+     DISP CONVERGENCE VALUE   =  0.5046E-03  CRITERION=  0.2523E-04
+     HDSP CONVERGENCE VALUE   =  0.3836E+05  CRITERION=   1918.    
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.5046E-03
+     FORCE CONVERGENCE VALUE  =  0.5141E-01  CRITERION=  0.3422E-01
+     VOLUME CONVERGENCE VALUE =  0.3146E-09  CRITERION=  0.1000E-05 <<< CONVERGED
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ A reference volume value times the tolerance is used by the             
+ Newton-Raphson method for checking convergence.  The calculated         
+ reference VOLUME CONVERGENCE VALUE = 1.181252113E-04 is less than a     
+ threshold.  This threshold is internally calculated.  You can           
+ overwrite it by specifying MINREF on the CNVTOL command.  Check         
+ results carefully.                                                      
+     DISP CONVERGENCE VALUE   =  0.1146E-05  CRITERION=  0.2526E-04 <<< CONVERGED
+     HDSP CONVERGENCE VALUE   =   4066.      CRITERION=   2047.    
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.1146E-05
+     FORCE CONVERGENCE VALUE  =  0.5284E-04  CRITERION=  0.3425E-01 <<< CONVERGED
+     VOLUME CONVERGENCE VALUE =  0.1298E-14  CRITERION=  0.1000E-05 <<< CONVERGED
+     DISP CONVERGENCE VALUE   =  0.2007E-07  CRITERION=  0.2526E-04 <<< CONVERGED
+     HDSP CONVERGENCE VALUE   =   6.721      CRITERION=   2047.     <<< CONVERGED
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC = -0.2007E-07
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   3
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER     ENAME   TOTAL ELAPSED   AVG ELAPSED
+
+        1      4863  SOLID285          0.0000   0.000000000
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER     ENAME   TOTAL ELAPSED   AVG ELAPSED
+
+        1      4863  SOLID285          0.0000   0.000000000
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      3
+ *** TIME =   1.00000         TIME INC =   1.00000

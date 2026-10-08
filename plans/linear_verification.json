@@ -1,0 +1,25 @@
+{
+  "linear_verification": [
+    {
+      "case": "baseline_linear",
+      "element": 285,
+      "tip_size": 0.0025,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "linear": true
+    },
+    {
+      "case": "working_linear",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01,
+      "linear": true
+    }
+  ]
+}

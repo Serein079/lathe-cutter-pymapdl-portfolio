@@ -1,0 +1,20 @@
+{
+  "model": "synthetic SI teaching block, not cutter",
+  "thermal_converged": true,
+  "structural_converged": true,
+  "tmin_degC": 20.0,
+  "tmax_degC": 100.0,
+  "max_u_m": 1.5071965371698254e-05,
+  "max_seqv_Pa": 11027549.505088598,
+  "nodes": 2359,
+  "elements": 1324,
+  "max_temperature_analytical_error_degC": 7.247535904753022e-13,
+  "run_directory": "evidence/thermal_demo",
+  "inputs": {
+    "k_W_mK": 45,
+    "E_Pa": 70000000000.0,
+    "nu": 0.27,
+    "alpha_per_K": 1.2e-05,
+    "Tref_degC": 20
+  }
+}

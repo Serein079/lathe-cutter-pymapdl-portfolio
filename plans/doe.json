@@ -1,0 +1,94 @@
+{
+  "doe": [
+    {
+      "case": "E1p7500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 7500.0,
+      "ex": 8000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E1p10000",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 8000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E1p12500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 12500.0,
+      "ex": 8000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E2p7500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 7500.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E2p10000",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E2p12500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 12500.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E3p7500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 7500.0,
+      "ex": 12000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E3p10000",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 12000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E3p12500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 12500.0,
+      "ex": 12000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    }
+  ]
+}

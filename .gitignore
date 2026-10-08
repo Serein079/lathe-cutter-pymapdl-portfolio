@@ -1,0 +1,32 @@
+# Local Python environments and caches
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mplconfig/
+
+# Newly generated solver data; audited published evidence is separate.
+/results/
+/work/
+/dist/
+/build/
+*.db
+*.rst
+*.rth
+*.esav
+*.full
+*.r001
+*.rdb
+*.DSP
+*.mntr
+*.lock
+
+# Local settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

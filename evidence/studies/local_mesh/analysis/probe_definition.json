@@ -1,0 +1,9 @@
+{
+  "point_in": [
+    -0.05771153017614537,
+    0.18891918500115723,
+    -0.21029335472554514
+  ],
+  "method": "VTK sample on nodal-averaged fields; vtkValidPointMask required",
+  "scope": "fixed-location diagnostic, not a maximum-stress convergence certificate"
+}

@@ -1,0 +1,10 @@
+{
+  "structural_cases_including_parity": 48,
+  "advanced_cases_numeric_checks": 47,
+  "thermal_workflows": 1,
+  "png_files": 165,
+  "pdf_pages": 27,
+  "visual_review": "all PNGs reviewed in contact sheets; PDF all pages reviewed, detailed checks on selected pages",
+  "peak_stress_converged": false,
+  "native_databases_retained": true
+}

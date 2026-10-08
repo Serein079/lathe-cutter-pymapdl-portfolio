@@ -1,0 +1,1350 @@
+{
+  "algorithm": "SHA256",
+  "scope": "Publication files; excludes itself and generated runtime data",
+  "files": {
+    ".env.example": {
+      "bytes": 212,
+      "sha256": "06f26e4b3babfd811baf652a01315394e66fe5e0fffcf0619b4f8619d3496d3d"
+    },
+    ".gitattributes": {
+      "bytes": 323,
+      "sha256": "2337eaee4109ddd03841562b89a55c1848344b0f38a89aa87c7888a8811ea42c"
+    },
+    ".github/workflows/checks.yml": {
+      "bytes": 542,
+      "sha256": "682ba1fef69de21fbe50a1c1a8c79d95d06f580ba8dd4de40e7e2e8abbea63a0"
+    },
+    ".gitignore": {
+      "bytes": 358,
+      "sha256": "f56ff33ff5cc5f1dfe53cd57b73e5a0103128508c19f270b68c425a8f24165f2"
+    },
+    "analyze_study.py": {
+      "bytes": 3141,
+      "sha256": "c9b1d6f3afe9eb5211d9f7856f9c68601a4ba981ac271e717e41c13e54185ca7"
+    },
+    "build_manifest.py": {
+      "bytes": 1444,
+      "sha256": "2bbab6e4747aab8ff59d8eec58f64f29e621026503688404fff7fa8aac542b20"
+    },
+    "data/geometry/LatheCutter.anf": {
+      "bytes": 51003,
+      "sha256": "3224b465091948b2f9bd2d3bd41f8564f0c313fa5ac38920481f17551fa39553"
+    },
+    "docs/assets/dense_mesh.png": {
+      "bytes": 145741,
+      "sha256": "974dfb01ecc4b82224c00c61f578eae026d8348e9520603ee460405de2c45b6e"
+    },
+    "docs/assets/doe_response.png": {
+      "bytes": 128205,
+      "sha256": "5919d1f0b3955623d5bf53faf44373e7c1ab8eb780d7b9b02b37e9ed40f355ad"
+    },
+    "docs/assets/element_comparison.png": {
+      "bytes": 109411,
+      "sha256": "f89a2e63e6d37c76647f624ed19c60030e8c8910bb5824bb9da949c905a7273e"
+    },
+    "docs/assets/force_balance.png": {
+      "bytes": 37509,
+      "sha256": "1589f6beebcbda1a64d570f8e59fcf45e4f733e0ecd67423c1e399ae6b6b20db"
+    },
+    "docs/assets/global_187.png": {
+      "bytes": 139441,
+      "sha256": "c1353c3ae6691d2c29a9897a9373ae6252b3a0b4599cfa7624ff76ac1c85e5bf"
+    },
+    "docs/assets/global_187_coarse_mesh.png": {
+      "bytes": 170894,
+      "sha256": "c7d1db498e4dd86db7ab40e3a5c56ea443b0e672e77b5f6fd19a6af70834b85f"
+    },
+    "docs/assets/global_187_fine_mesh.png": {
+      "bytes": 520086,
+      "sha256": "f9c6adb3231f5dd88523c49cb1689816ecd6f9f3dd294deeed05b02cbaecd4a6"
+    },
+    "docs/assets/global_285.png": {
+      "bytes": 149159,
+      "sha256": "53dca01b9c9d8cc87bccdf2e5484b278b1a213dfb476bed5bdc9e2f935c290c3"
+    },
+    "docs/assets/global_285_coarse_mesh.png": {
+      "bytes": 171180,
+      "sha256": "0e2eaa8c3e560db2347226532f135bffd1dfd2eb0e723328e116021e2837f34e"
+    },
+    "docs/assets/global_285_fine_mesh.png": {
+      "bytes": 413697,
+      "sha256": "9fb695e126e6bb664e04893c5630a45247d4a905b5a50e2f295788e459b00bb4"
+    },
+    "docs/assets/load_and_probe.png": {
+      "bytes": 351792,
+      "sha256": "bd6e03405579f24fafe1b539ff8253059ebd54fea9ff518b6e2e29abfe20ed9c"
+    },
+    "docs/assets/load_sensitivity.png": {
+      "bytes": 107255,
+      "sha256": "fa34a5d34f5833281b0bbcdfebdd394bd4666d443e53b59e82cc008871299323"
+    },
+    "docs/assets/local_mesh.png": {
+      "bytes": 152229,
+      "sha256": "793cb1b3ca349f48cdea3b440a251c53907a27cd4b1cd1abd4d38e0f4a9eef01"
+    },
+    "docs/assets/material_sensitivity.png": {
+      "bytes": 120997,
+      "sha256": "64638f78f57405e76247fe8db2aa182ed7a474158218632968f93ccd85436fb2"
+    },
+    "docs/assets/peak_region.png": {
+      "bytes": 95742,
+      "sha256": "429f5cbcf08088f342e8fa5e2c1e9bec09769f1215052f17b86a8f11d10aa987"
+    },
+    "docs/assets/pressure_tables.png": {
+      "bytes": 87635,
+      "sha256": "66fa562b8bedf2515271e731e99aa303b668beb3c29e5862ede7a50be48432a4"
+    },
+    "docs/assets/symmetry_areas.png": {
+      "bytes": 149771,
+      "sha256": "0f90c3d3becf77309889e0d247e91683b0759fa7fb07c4a7fe9c2c526cec39ba"
+    },
+    "docs/assets/table_sensitivity.png": {
+      "bytes": 105127,
+      "sha256": "cfd16e04d767a1cb4a0c257b731cde6eada28e877748294e6dc97ef718b8c953"
+    },
+    "docs/gallery.html": {
+      "bytes": 80419,
+      "sha256": "342be18c2d5eb2510aba2328231c8c2d6bc38c9950220501d520fa4f0f27cd81"
+    },
+    "docs/INTERVIEW_CN.md": {
+      "bytes": 5056,
+      "sha256": "747a17c6fd5389d725b267a39079e12a8bbe772358f603047aa55a3545554647"
+    },
+    "docs/METHODS.md": {
+      "bytes": 5524,
+      "sha256": "5c357616a654b8db357589e47070cb68802b703fe58bf74a602ad7eaba6e56be"
+    },
+    "docs/project-report-cn.pdf": {
+      "bytes": 4310830,
+      "sha256": "8e7411896b2d8c1cb54bd4e6d2d6cc28f72b6e0ecbb2dbf97548ebce570583b5"
+    },
+    "docs/REPRODUCE.md": {
+      "bytes": 6083,
+      "sha256": "fa358cd9f4a4b3941086c99accf4294d112ed2ca5ff4c0cfabed3fe47236d7b8"
+    },
+    "docs/UPLOAD_GITHUB_CN.md": {
+      "bytes": 3180,
+      "sha256": "afbce5ad509bd75e7e8cc3fce504da7762839c75cd3a6eb52caaf8629381e4f8"
+    },
+    "evidence/all_cases.csv": {
+      "bytes": 26425,
+      "sha256": "8822372195f9e91a862280703bd22367dd8e39a013aeee323d43f49c89341ed2"
+    },
+    "evidence/boundary_review.json": {
+      "bytes": 32238,
+      "sha256": "ce15908696ae3aab5daad1631ee813a7e76282d66a1c06591711071824fd0180"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h4/figures/displacement.png": {
+      "bytes": 328354,
+      "sha256": "f338bb932c7b30ab86193d757d743ce8ba2d03b21b9d12f9ed5ce5de704b0121"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h4/figures/principal_stress.png": {
+      "bytes": 330711,
+      "sha256": "872825f8ab4d668d4c2dd7605f1b08ca5182ad5d520f9b626e137d023acde4cc"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h4/figures/von_mises_stress.png": {
+      "bytes": 363947,
+      "sha256": "e0bb7b25c7b6c13e1414d9015e9dbda28656634ef1aa5647c0ccaebc7b6cd9da"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h4/summary.json": {
+      "bytes": 1170,
+      "sha256": "f82e00ed813c719df3494d9e076e7db1cb3ba5c11c1c8a151d6d6a27822c44a2"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h5/figures/displacement.png": {
+      "bytes": 402909,
+      "sha256": "8bdf59b2326339b96699a2b2fc6f3264267ebe8a6a7d11938b24584bf3911f37"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h5/figures/principal_stress.png": {
+      "bytes": 402983,
+      "sha256": "2487ca388d8ed0b2817ef1a78856f42a18e8b39f0e0b83f9031cb75bda6e4bde"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h5/figures/von_mises_stress.png": {
+      "bytes": 430565,
+      "sha256": "c9b48b698bf2cf62e25950a6afac860cf2a9f545a2c7a4e20f241014709acb14"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h5/summary.json": {
+      "bytes": 1168,
+      "sha256": "a78afa9f7222d295c4a44ea73947bc820219ff58111b6a1ac736f1674770ff6f"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h6/advanced_20261008_dense_mesh_h6.err": {
+      "bytes": 2099,
+      "sha256": "a5ea7b740cc3a684ad24c7b06757fc14371e192b7c4d952c8b9706f88985b392"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h6/baseline.vtu": {
+      "bytes": 9126605,
+      "sha256": "7890198fb04d7aeb2be958b0f4f3f30438f8b500519239c3b8c003f7088cb9a6"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h6/commands.apdl": {
+      "bytes": 2294,
+      "sha256": "7456f2dd0b0a298179af60081e088f1d7d7f35c7be19cd4e87d105df026181c6"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h6/csv/nodal_results.csv": {
+      "bytes": 12547758,
+      "sha256": "458c6755001e319b597be2a2aa2cccbd83256bb72791819ac0a1aa55d5476ce2"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h6/csv/pressure_table.csv": {
+      "bytes": 4074,
+      "sha256": "e4bc104b9c1c4e771f4e882774c7d40e62f11504785327fb44be5ca42ed220c3"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h6/figures/displacement.png": {
+      "bytes": 492280,
+      "sha256": "b209e17b4100685e45cd4809dd0cbc1ede9f49fe6a9961f6b285ec0f6049fe0a"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h6/figures/principal_stress.png": {
+      "bytes": 487276,
+      "sha256": "0521cbc1363c18769b7dbb9abc21681e98f3d0a5a834ef17b83b0543d5b4c8dc"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h6/figures/von_mises_stress.png": {
+      "bytes": 510204,
+      "sha256": "fe51bb6fbbccd193ed671a3492a364ab5cf94ac157fd39179cef0d400a2fd8b6"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h6/load_definition.json": {
+      "bytes": 62162,
+      "sha256": "28e2aef949eb991de926ebdb3ada74d5127b077f6582c7f7a043e75c9b82ae3a"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h6/reaction_global.txt": {
+      "bytes": 191517,
+      "sha256": "e2f172b041ff420135f40621f5d2fc982a12c2f32b7347954a0df1e0f96ceb9f"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h6/solve_output.txt": {
+      "bytes": 4927,
+      "sha256": "8a0a365d03a85cf890c4afe6a6b635f4e257c85bcf5dc169d0ffc7b037ee2345"
+    },
+    "evidence/cases/advanced_20261008_dense_mesh_h6/summary.json": {
+      "bytes": 1169,
+      "sha256": "5dd2259d96f81f43fa5a803737987b9e03069b4ec5ffce9b7d784b3d0ad7aeb6"
+    },
+    "evidence/cases/advanced_20261008_doe_E1p10000/figures/displacement.png": {
+      "bytes": 402928,
+      "sha256": "c9352471024929f39b1f78f6c1ac3ef20b83ac279043769342cfb487ffb5e3d8"
+    },
+    "evidence/cases/advanced_20261008_doe_E1p10000/figures/principal_stress.png": {
+      "bytes": 402705,
+      "sha256": "7337a2c887e6ab6d845a03cbc24b3f900b765c7e7f0fb6b7099d77d57e212478"
+    },
+    "evidence/cases/advanced_20261008_doe_E1p10000/figures/von_mises_stress.png": {
+      "bytes": 430559,
+      "sha256": "faeab18e6c0d505e47b3766b3e0eeed1afacff3bc476a102a71dd45e99d15bff"
+    },
+    "evidence/cases/advanced_20261008_doe_E1p10000/summary.json": {
+      "bytes": 1167,
+      "sha256": "faa4e74ab1dcd04c96bd93f0438025a32c1951b91b952925e24365ef6e9beeff"
+    },
+    "evidence/cases/advanced_20261008_doe_E1p12500/figures/displacement.png": {
+      "bytes": 402902,
+      "sha256": "a2eacdd2326c9044a0759c80e67b60881abfa8b727c9f8b3f358814506d3cb62"
+    },
+    "evidence/cases/advanced_20261008_doe_E1p12500/figures/principal_stress.png": {
+      "bytes": 402529,
+      "sha256": "05653a659ac973b8fbb30af73c5251ebb01941d042fa3131b800c754a70c1ecc"
+    },
+    "evidence/cases/advanced_20261008_doe_E1p12500/figures/von_mises_stress.png": {
+      "bytes": 431019,
+      "sha256": "55cd664293806e527810de0ac83cb82a562094e74609d884c6ac6e7fd328d4ff"
+    },
+    "evidence/cases/advanced_20261008_doe_E1p12500/summary.json": {
+      "bytes": 1165,
+      "sha256": "f086476a27ab5eb7a77a354b2796a8820c5142c90d7ab489ed990e28a4263ea0"
+    },
+    "evidence/cases/advanced_20261008_doe_E1p7500/figures/displacement.png": {
+      "bytes": 403198,
+      "sha256": "488e15dccc16fc6d299413f7e7c886d886964f9f037cfb8ded2e95727eaa387b"
+    },
+    "evidence/cases/advanced_20261008_doe_E1p7500/figures/principal_stress.png": {
+      "bytes": 403309,
+      "sha256": "5299dd613c66bbb2d29f5310fde880fb450b1d72de05f87d2c937b12732204e1"
+    },
+    "evidence/cases/advanced_20261008_doe_E1p7500/figures/von_mises_stress.png": {
+      "bytes": 430925,
+      "sha256": "5fb1f5bee3c734afd7874e50d58f2c247df9c09ff56282fa9a2bc2c348bcacab"
+    },
+    "evidence/cases/advanced_20261008_doe_E1p7500/summary.json": {
+      "bytes": 1164,
+      "sha256": "f188d7f807580adadf158b74671d29468d6af4acdf14cc2de35d99ba0f09589e"
+    },
+    "evidence/cases/advanced_20261008_doe_E2p10000/figures/displacement.png": {
+      "bytes": 402909,
+      "sha256": "8bdf59b2326339b96699a2b2fc6f3264267ebe8a6a7d11938b24584bf3911f37"
+    },
+    "evidence/cases/advanced_20261008_doe_E2p10000/figures/principal_stress.png": {
+      "bytes": 402983,
+      "sha256": "2487ca388d8ed0b2817ef1a78856f42a18e8b39f0e0b83f9031cb75bda6e4bde"
+    },
+    "evidence/cases/advanced_20261008_doe_E2p10000/figures/von_mises_stress.png": {
+      "bytes": 430565,
+      "sha256": "c9b48b698bf2cf62e25950a6afac860cf2a9f545a2c7a4e20f241014709acb14"
+    },
+    "evidence/cases/advanced_20261008_doe_E2p10000/summary.json": {
+      "bytes": 1169,
+      "sha256": "2b470d55d5b207c8c411e16d79a75f014908fa69d96971a8647ddec0a28dce11"
+    },
+    "evidence/cases/advanced_20261008_doe_E2p12500/figures/displacement.png": {
+      "bytes": 402928,
+      "sha256": "c9352471024929f39b1f78f6c1ac3ef20b83ac279043769342cfb487ffb5e3d8"
+    },
+    "evidence/cases/advanced_20261008_doe_E2p12500/figures/principal_stress.png": {
+      "bytes": 402862,
+      "sha256": "5616aa1549ff24448971ad61107d820067b316027bf5be8745200b66beda1978"
+    },
+    "evidence/cases/advanced_20261008_doe_E2p12500/figures/von_mises_stress.png": {
+      "bytes": 431017,
+      "sha256": "2a1c5672f66ecf812e03e6912308c334c71adf31f31c351056577fecc5af01ec"
+    },
+    "evidence/cases/advanced_20261008_doe_E2p12500/summary.json": {
+      "bytes": 1168,
+      "sha256": "611e1b46f30dbf1bba314da6e8cf4cccb5c6f5dc2e2a1105d70971676bb64678"
+    },
+    "evidence/cases/advanced_20261008_doe_E2p7500/figures/displacement.png": {
+      "bytes": 403004,
+      "sha256": "4af24fd7571067199660ba98291094681bb024de99ab59d7d0924b0f7c850e52"
+    },
+    "evidence/cases/advanced_20261008_doe_E2p7500/figures/principal_stress.png": {
+      "bytes": 403058,
+      "sha256": "d641ac0033a6f1dc412548178dd7fe413c923ce2fea2744901d202365e3d5593"
+    },
+    "evidence/cases/advanced_20261008_doe_E2p7500/figures/von_mises_stress.png": {
+      "bytes": 430503,
+      "sha256": "6f86c91a08d7f9b48028e5ff18ca61a935d06f4186e1e317cffe1df4985f2480"
+    },
+    "evidence/cases/advanced_20261008_doe_E2p7500/summary.json": {
+      "bytes": 1165,
+      "sha256": "59d2a541a551f658785067e35bcce18ca57e03ad64e993abcf5cf0118a50360a"
+    },
+    "evidence/cases/advanced_20261008_doe_E3p10000/figures/displacement.png": {
+      "bytes": 402726,
+      "sha256": "11fe497bb18c7c0c363f6e0cce814739b7b7269ffa1260b8c766b86110aa5808"
+    },
+    "evidence/cases/advanced_20261008_doe_E3p10000/figures/principal_stress.png": {
+      "bytes": 402851,
+      "sha256": "7c966742deddb6ded5a309cbbcf19763431b0e1141c628f93636a38145fe7be1"
+    },
+    "evidence/cases/advanced_20261008_doe_E3p10000/figures/von_mises_stress.png": {
+      "bytes": 430447,
+      "sha256": "642763ee7f155cbba63c2e3de139a2491fdef4f68f2bb40b4fb75a376a0bc275"
+    },
+    "evidence/cases/advanced_20261008_doe_E3p10000/summary.json": {
+      "bytes": 1168,
+      "sha256": "6c873bcb32b6275a764f60ebb81c18134d35417209e63eaf8c6ee9fe00f81b39"
+    },
+    "evidence/cases/advanced_20261008_doe_E3p12500/figures/displacement.png": {
+      "bytes": 402888,
+      "sha256": "d7b2745b23b477486b7a5bf3d32b57d9755fd7d056fc3a82cc12244cc131c26b"
+    },
+    "evidence/cases/advanced_20261008_doe_E3p12500/figures/principal_stress.png": {
+      "bytes": 402788,
+      "sha256": "9311f372d97241c9e8fa6ed656b6642ab950cd1038c6a18830a67c9a3e69af49"
+    },
+    "evidence/cases/advanced_20261008_doe_E3p12500/figures/von_mises_stress.png": {
+      "bytes": 431193,
+      "sha256": "aefe2396e296e1c306ea01369736e66108fef2c7077385df86f7206a2ddd78c3"
+    },
+    "evidence/cases/advanced_20261008_doe_E3p12500/summary.json": {
+      "bytes": 1169,
+      "sha256": "a673e236c68cc12db52c68e77dffd8e80f4bc611706cbae57c648209e4f94ccb"
+    },
+    "evidence/cases/advanced_20261008_doe_E3p7500/figures/displacement.png": {
+      "bytes": 403255,
+      "sha256": "34a4620097a2a36cfe8375273ac2c2a0c70d24bdf82704d9e4ae71bb27a630b1"
+    },
+    "evidence/cases/advanced_20261008_doe_E3p7500/figures/principal_stress.png": {
+      "bytes": 403196,
+      "sha256": "f6e60523aa5a318e635ac185dfbf147e87b111bdd844adb06c069d3eed455193"
+    },
+    "evidence/cases/advanced_20261008_doe_E3p7500/figures/von_mises_stress.png": {
+      "bytes": 430348,
+      "sha256": "cc7c042949dfaf74f2d8009f76c1a5c7301144bd9b57da92d63d4fbed0db56b6"
+    },
+    "evidence/cases/advanced_20261008_doe_E3p7500/summary.json": {
+      "bytes": 1165,
+      "sha256": "e6c7fa20f3362d90739b9b8ae24137e7295a70c6daeccc78243fb187f7fd01fc"
+    },
+    "evidence/cases/advanced_20261008_element_187_1/figures/displacement.png": {
+      "bytes": 254703,
+      "sha256": "009659842725d7ac11d87a014b5691c76a36ccb54a81ad8c3422c56b0dce6d9e"
+    },
+    "evidence/cases/advanced_20261008_element_187_1/figures/principal_stress.png": {
+      "bytes": 274449,
+      "sha256": "7a2031b6847766c13bdf1a18154dee0981ce4255d70f26b59a190a9b467429cd"
+    },
+    "evidence/cases/advanced_20261008_element_187_1/figures/von_mises_stress.png": {
+      "bytes": 294520,
+      "sha256": "1a9ab47dd9e55ba640f3539c38a2cd333949b9b094f503c0ff938a08182b1edf"
+    },
+    "evidence/cases/advanced_20261008_element_187_1/summary.json": {
+      "bytes": 1114,
+      "sha256": "6300aab9dea92bde21085c1c22a91db84464c167c3e8b45bf3cda522e6ede3b2"
+    },
+    "evidence/cases/advanced_20261008_element_187_2/figures/displacement.png": {
+      "bytes": 256147,
+      "sha256": "7b3ecf5cf1d607f3f2b2ff82cd6b7b94c8b91aae58deb8d0d50335d56a8f97be"
+    },
+    "evidence/cases/advanced_20261008_element_187_2/figures/principal_stress.png": {
+      "bytes": 275296,
+      "sha256": "a6ffa3a80158c81e7e670dcfc610149c6761ce584c614b36b06c2ee0815ecaf4"
+    },
+    "evidence/cases/advanced_20261008_element_187_2/figures/von_mises_stress.png": {
+      "bytes": 297416,
+      "sha256": "24d9b8ebb84cd5d3e903a6ef21ede78ee509d6435a3643ffc9edc6bb7b031442"
+    },
+    "evidence/cases/advanced_20261008_element_187_2/summary.json": {
+      "bytes": 1112,
+      "sha256": "4560947a998900a327ac513eeaa77b88f9d2f0ab5f5f5c4e0052eef3912009d1"
+    },
+    "evidence/cases/advanced_20261008_element_187_3/figures/displacement.png": {
+      "bytes": 255111,
+      "sha256": "23e96c5865030cc9a4e4f3a337602871505413a227c994221e8c13087aef7d9e"
+    },
+    "evidence/cases/advanced_20261008_element_187_3/figures/principal_stress.png": {
+      "bytes": 273741,
+      "sha256": "cb4b30ae8bd55288997ecf51bf1139ddb012c22de0f5cc392d38a67076bb1433"
+    },
+    "evidence/cases/advanced_20261008_element_187_3/figures/von_mises_stress.png": {
+      "bytes": 294817,
+      "sha256": "92d527bb4e5ba014eb88dede63c1a6e4b9d863c5aa64f70a8db5a8b6436ec62c"
+    },
+    "evidence/cases/advanced_20261008_element_187_3/summary.json": {
+      "bytes": 1114,
+      "sha256": "0bf950b2e3a283c40f477eb583555da461c9eebb8e294b04fdbf742e8869af87"
+    },
+    "evidence/cases/advanced_20261008_element_285_1/figures/displacement.png": {
+      "bytes": 282221,
+      "sha256": "6af388848ce47663aa679b1a32af22687f04352e9fa3ef2ce9e97535735c1e73"
+    },
+    "evidence/cases/advanced_20261008_element_285_1/figures/principal_stress.png": {
+      "bytes": 301744,
+      "sha256": "442e40a77c76014291e7961725eb0dd228b060f21a576cabaaef013227b006f8"
+    },
+    "evidence/cases/advanced_20261008_element_285_1/figures/von_mises_stress.png": {
+      "bytes": 307634,
+      "sha256": "b498aa0b9858fb448680d2cf6d84d257cbe2b4baf9826fa477026508f4b75004"
+    },
+    "evidence/cases/advanced_20261008_element_285_1/summary.json": {
+      "bytes": 1109,
+      "sha256": "467c259cc9c1ede7da2ed77f1b70a05df062f40774450074ba207c1d4af2d0d4"
+    },
+    "evidence/cases/advanced_20261008_element_285_2/figures/displacement.png": {
+      "bytes": 283310,
+      "sha256": "a55b2f235ad4790d9f1251bf472ed1b12f578ffa2e53a17f6ad99c18c8b9237e"
+    },
+    "evidence/cases/advanced_20261008_element_285_2/figures/principal_stress.png": {
+      "bytes": 300719,
+      "sha256": "a94ec63d538d590a916a1a44c98f8f8fc605a8f73ec210809cd1a2c07f36423d"
+    },
+    "evidence/cases/advanced_20261008_element_285_2/figures/von_mises_stress.png": {
+      "bytes": 309729,
+      "sha256": "8423ad1f624d60609382f577a281dfb03d36694c52d2515c05d342e8d91b169f"
+    },
+    "evidence/cases/advanced_20261008_element_285_2/summary.json": {
+      "bytes": 1109,
+      "sha256": "b209d60086beb42c9af90761f9cc97b97f8ac65cad80ab89386af79653732c2e"
+    },
+    "evidence/cases/advanced_20261008_element_285_3/figures/displacement.png": {
+      "bytes": 281545,
+      "sha256": "1090065b4250775feea046ed14c654f9e152964b77365971f31657474406e86e"
+    },
+    "evidence/cases/advanced_20261008_element_285_3/figures/principal_stress.png": {
+      "bytes": 301215,
+      "sha256": "c619ec3c3de98ffabf11b4e8af473133af9666a68ef6a6c7bd7a32fdf62b1c3d"
+    },
+    "evidence/cases/advanced_20261008_element_285_3/figures/von_mises_stress.png": {
+      "bytes": 309389,
+      "sha256": "2624c445dc1fdf3696a9b379abd94dce1e152011b03edc927f0e90e79cea6389"
+    },
+    "evidence/cases/advanced_20261008_element_285_3/summary.json": {
+      "bytes": 1111,
+      "sha256": "d2ada55b16ea0aaef4be0f939d287e85b7f9a95d43f68433fed74eacab453633"
+    },
+    "evidence/cases/advanced_20261008_global_187_h1/figures/displacement.png": {
+      "bytes": 189368,
+      "sha256": "1d19052a8da432ac9c9e51e7a1de2b744f6373db22ccc4bbcbddb159e4022b5b"
+    },
+    "evidence/cases/advanced_20261008_global_187_h1/figures/principal_stress.png": {
+      "bytes": 204216,
+      "sha256": "4b53bcc92af474503c97a8789c055c50267740495938445ffea38e4aece9b54e"
+    },
+    "evidence/cases/advanced_20261008_global_187_h1/figures/von_mises_stress.png": {
+      "bytes": 218221,
+      "sha256": "b079f9a4f4496cffdd6bf372d02f89ad89ee283c83df561b795dfbb0f493e35a"
+    },
+    "evidence/cases/advanced_20261008_global_187_h1/summary.json": {
+      "bytes": 1109,
+      "sha256": "e7258ac05f74d2e351c4573b16d4b4ebfaa14972bf6684dc15b74d05e26ff36e"
+    },
+    "evidence/cases/advanced_20261008_global_187_h2/figures/displacement.png": {
+      "bytes": 229701,
+      "sha256": "f1dcc0c34f85ec39e6c1abeee8ac458c1ca81ae53370453cb40fcf3c0aea98af"
+    },
+    "evidence/cases/advanced_20261008_global_187_h2/figures/principal_stress.png": {
+      "bytes": 241963,
+      "sha256": "32a742b29bae4fb2414f3bb7dcb61d3d6a500c526fceef7786243e829433c789"
+    },
+    "evidence/cases/advanced_20261008_global_187_h2/figures/von_mises_stress.png": {
+      "bytes": 264562,
+      "sha256": "d2a337a5dc1eb769ecc854c2ee462e0feea547e8f633f4144cbdb5fd5afa73c5"
+    },
+    "evidence/cases/advanced_20261008_global_187_h2/summary.json": {
+      "bytes": 1112,
+      "sha256": "95b967b0ba84b63309a7251e1f1e7bb1cee82cb2e7cbe76c2e41e7005742007a"
+    },
+    "evidence/cases/advanced_20261008_global_187_h3/figures/displacement.png": {
+      "bytes": 269291,
+      "sha256": "cc47275883378c8308a108f48343496918bd90529054cb2c46e06f3f72d6dfcd"
+    },
+    "evidence/cases/advanced_20261008_global_187_h3/figures/principal_stress.png": {
+      "bytes": 277652,
+      "sha256": "c0c23585764d998cd11b2c7526e17bbaec07135532b7f336044f284ffa527be9"
+    },
+    "evidence/cases/advanced_20261008_global_187_h3/figures/von_mises_stress.png": {
+      "bytes": 311120,
+      "sha256": "9f78ce4eec08adab4161ad50453f020fdabb69a1d470188e3d61d663417f58ff"
+    },
+    "evidence/cases/advanced_20261008_global_187_h3/summary.json": {
+      "bytes": 1110,
+      "sha256": "1882a2bd7dec7d583cbc82348f73d06fedfc6fd57792227663568c86b3a33c5a"
+    },
+    "evidence/cases/advanced_20261008_global_187_h4/figures/displacement.png": {
+      "bytes": 328449,
+      "sha256": "128b8192a59c53730424cbbfe06f3ab293352e5d8ed2db7ec1c592f453f46590"
+    },
+    "evidence/cases/advanced_20261008_global_187_h4/figures/principal_stress.png": {
+      "bytes": 330765,
+      "sha256": "ceabc291e766c7396ae2e68bc8a5ecba0283fbe660c1832a02dbcd2daa770f1e"
+    },
+    "evidence/cases/advanced_20261008_global_187_h4/figures/von_mises_stress.png": {
+      "bytes": 363567,
+      "sha256": "2608bbdc288213682c5b92a65bea5d98dcbd2a9ed23c277302eae6e65a6cedc1"
+    },
+    "evidence/cases/advanced_20261008_global_187_h4/summary.json": {
+      "bytes": 1115,
+      "sha256": "b5bb9aea1d7affa7e3df315decc158154b1de833439f5a69e1bd8eeeb2a9520e"
+    },
+    "evidence/cases/advanced_20261008_global_187_h5/figures/displacement.png": {
+      "bytes": 402709,
+      "sha256": "53f68d874c4a847aa41612b2c1ab16090fa31943ee8eeab982d23ef9ce4f72f5"
+    },
+    "evidence/cases/advanced_20261008_global_187_h5/figures/principal_stress.png": {
+      "bytes": 402717,
+      "sha256": "038b516a04a59bd7a9059a76871f236f798bf19a10cb0919995e2cec98eabe98"
+    },
+    "evidence/cases/advanced_20261008_global_187_h5/figures/von_mises_stress.png": {
+      "bytes": 431194,
+      "sha256": "69d96efe91f879640ba8da701e5e061d2dbe8ea9b7c2b334bd6066c13f40e334"
+    },
+    "evidence/cases/advanced_20261008_global_187_h5/summary.json": {
+      "bytes": 1114,
+      "sha256": "da37d406d512478f4d0d53eeb3408022846919058be73dc68f0635dcfc64d064"
+    },
+    "evidence/cases/advanced_20261008_global_187_h6/figures/displacement.png": {
+      "bytes": 492064,
+      "sha256": "312259e1316cadd3a7dac7fa516ef761675c9414eafd29105fb12bc27303f1b3"
+    },
+    "evidence/cases/advanced_20261008_global_187_h6/figures/principal_stress.png": {
+      "bytes": 487195,
+      "sha256": "94961acc72429c0afa5e46ec501eea9727d450fc1079d8597fd3ff1593355958"
+    },
+    "evidence/cases/advanced_20261008_global_187_h6/figures/von_mises_stress.png": {
+      "bytes": 510168,
+      "sha256": "11b752a0554fcffdcf5ba64e034b9ddc0c64276703bcfaa15662b9e0e288f41b"
+    },
+    "evidence/cases/advanced_20261008_global_187_h6/summary.json": {
+      "bytes": 1116,
+      "sha256": "4c05e6c1aa6987e6678cdaaa12d76ca8da574f61b323932f20e6a3795658c72d"
+    },
+    "evidence/cases/advanced_20261008_global_285_h1/figures/displacement.png": {
+      "bytes": 192800,
+      "sha256": "e39d57c2aa398a91435c98b402a788d3de1bdf0e63022d52eb86a379828ef4d6"
+    },
+    "evidence/cases/advanced_20261008_global_285_h1/figures/principal_stress.png": {
+      "bytes": 211009,
+      "sha256": "7ec8dca3c624da6b199ccd7ee7bf1c70cf25dab88968776d42fc37e039ad5160"
+    },
+    "evidence/cases/advanced_20261008_global_285_h1/figures/von_mises_stress.png": {
+      "bytes": 205718,
+      "sha256": "bdaae4638015184bde1638582b8617ed6e9e220a2ac9efb20046196c569c65a7"
+    },
+    "evidence/cases/advanced_20261008_global_285_h1/summary.json": {
+      "bytes": 1106,
+      "sha256": "90311c43a6e827f52d76a95a5215863b326730dbad7b0e74052faf5d896c8c1d"
+    },
+    "evidence/cases/advanced_20261008_global_285_h2/figures/displacement.png": {
+      "bytes": 231698,
+      "sha256": "238eb5bb9c80c666ba4e2343bef1b327bed243ed8ab15e7ecf48736e38990cf4"
+    },
+    "evidence/cases/advanced_20261008_global_285_h2/figures/principal_stress.png": {
+      "bytes": 244012,
+      "sha256": "7606c777b57553bc44e2c0ae0b77f1777992be65b9d92ddee2df4f9c6c457bbf"
+    },
+    "evidence/cases/advanced_20261008_global_285_h2/figures/von_mises_stress.png": {
+      "bytes": 245270,
+      "sha256": "775e1a06d527d55a562972dcd168df3d2f627172d2cf128559ef9ad00d5b8e39"
+    },
+    "evidence/cases/advanced_20261008_global_285_h2/summary.json": {
+      "bytes": 1110,
+      "sha256": "1fa0220a93e0dda4e3b87d40c7020502e8204b81475fd28f63a235600383ef08"
+    },
+    "evidence/cases/advanced_20261008_global_285_h3/figures/displacement.png": {
+      "bytes": 270679,
+      "sha256": "2d8e4f7ffe5eedc1faeec9df23de4ae9e09ab0341b046bafff50b56e018d9367"
+    },
+    "evidence/cases/advanced_20261008_global_285_h3/figures/principal_stress.png": {
+      "bytes": 281205,
+      "sha256": "75f15286ec832ca6cb04fccbd33a21de1a1f79c5ef491ec7ed5f334a0f2bcf1b"
+    },
+    "evidence/cases/advanced_20261008_global_285_h3/figures/von_mises_stress.png": {
+      "bytes": 289927,
+      "sha256": "1c5a31eb8716adebf360e7887376f008357501c48481e19522ea4c52c09724e6"
+    },
+    "evidence/cases/advanced_20261008_global_285_h3/summary.json": {
+      "bytes": 1110,
+      "sha256": "909fba6d4522833634abc9fd90a5c78d0cc60e8d21e499909d12a9e5d392b705"
+    },
+    "evidence/cases/advanced_20261008_global_285_h4/figures/displacement.png": {
+      "bytes": 328687,
+      "sha256": "8bf39eab87b47a3c6401d2cce934b48e3b9c51522be0db47b77cd9b88391a818"
+    },
+    "evidence/cases/advanced_20261008_global_285_h4/figures/principal_stress.png": {
+      "bytes": 340822,
+      "sha256": "9f2f0c6bf0edcb65f0f92b788744f0bcb1928fba596a9dd56b652541ceedbae2"
+    },
+    "evidence/cases/advanced_20261008_global_285_h4/figures/von_mises_stress.png": {
+      "bytes": 355179,
+      "sha256": "a252a29999d63da349e8d78172fa2baf4ad0d4aa1d5292c1a7f817877641a88b"
+    },
+    "evidence/cases/advanced_20261008_global_285_h4/summary.json": {
+      "bytes": 1110,
+      "sha256": "58976966c4579db16bcafc3129b9604abbb2146edb776d7db20021b115d42d6c"
+    },
+    "evidence/cases/advanced_20261008_global_285_h5/figures/displacement.png": {
+      "bytes": 403241,
+      "sha256": "9e62c2ab5198f6dc0aaeec7d39d18e515e5ca13ccb46f6cfbe756644c496351c"
+    },
+    "evidence/cases/advanced_20261008_global_285_h5/figures/principal_stress.png": {
+      "bytes": 416677,
+      "sha256": "afeff3146c63868bfb85e0999b99b37bea33885404f083dcf268d3c2a35f08e6"
+    },
+    "evidence/cases/advanced_20261008_global_285_h5/figures/von_mises_stress.png": {
+      "bytes": 439283,
+      "sha256": "4c71cef2a7feb58d5fc017ef659cb477d666aea20c9ef5396521ac52fd36d839"
+    },
+    "evidence/cases/advanced_20261008_global_285_h5/summary.json": {
+      "bytes": 1111,
+      "sha256": "1d28ddcbc9826a6b27bfdd516dd3cd34380389ec0246273b6b35835853799d9e"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_baseline_linear/advanced_20261008_linear_verification_baseline_linear.err": {
+      "bytes": 1397,
+      "sha256": "b23217f642902b092e617e1ebe8d26d48e66a7e5411dd438ed40965920d74913"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_baseline_linear/baseline.vtu": {
+      "bytes": 192428,
+      "sha256": "9a7679a6fb98a6a58e180734134a5c3c93e16aec06af8b2974d862cbc71c3bb7"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_baseline_linear/commands.apdl": {
+      "bytes": 2261,
+      "sha256": "f94a62ffb31aafcfb6c8e4132bcfcb9c2172c82f7a8871a6ce80c0656d41c7ee"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_baseline_linear/csv/nodal_results.csv": {
+      "bytes": 188521,
+      "sha256": "0e61cda1207b2aa3c60250ca7114af658d829d4dab1432a43749749dfb87778c"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_baseline_linear/csv/pressure_table.csv": {
+      "bytes": 524,
+      "sha256": "1f4504460c267dd803a4e87dca65e1e7c892fe694265934dfab831a873c823da"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_baseline_linear/figures/displacement.png": {
+      "bytes": 283305,
+      "sha256": "11dc9f46fb0c590c2423f7765aff0e0e5b68b5225c1446e4e69e194a4a8bb11f"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_baseline_linear/figures/principal_stress.png": {
+      "bytes": 300995,
+      "sha256": "f73b5b1696e27b8d308b67c6e80c0f92f2729584e55f41c24406ba9262334af6"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_baseline_linear/figures/von_mises_stress.png": {
+      "bytes": 309902,
+      "sha256": "92bfc0279a90193eb1edf8e3e3b1ff8bd0fae27a5319c03d39187742daec388a"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_baseline_linear/force_balance.json": {
+      "bytes": 859,
+      "sha256": "3aa95afe396e1287282ac9594338340b2bd92216e467752903d6fa9447abcf27"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_baseline_linear/load_definition.json": {
+      "bytes": 2129,
+      "sha256": "4b5a40d4bcedfcae8d29a254d7649d0411d2861658e274f92f1c5f71dec0703b"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_baseline_linear/reaction_global.txt": {
+      "bytes": 17102,
+      "sha256": "de88c718460e3584eb3f733641744c3551c2f7da0fc640698a654db2df37904e"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_baseline_linear/solve_output.txt": {
+      "bytes": 3024,
+      "sha256": "29338747370afc5300850110ea7624f1438321981f6b61359f49624595b49768"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_baseline_linear/summary.json": {
+      "bytes": 1238,
+      "sha256": "763add576dba2747c0aa1db05fd61256e525d747dfe016953bcd7493fcdec38b"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_working_linear/figures/displacement.png": {
+      "bytes": 403027,
+      "sha256": "3e33020f58713cdd46098c5ff9f30fc2e109b1a7bca82f6d9acb21283f8b0bc1"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_working_linear/figures/principal_stress.png": {
+      "bytes": 402792,
+      "sha256": "cf6c5d5f5841da195347935908e9f372b30381de33705cc58afc16202028c2db"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_working_linear/figures/von_mises_stress.png": {
+      "bytes": 430262,
+      "sha256": "4153ccdf1e1c190cf3a9d079d538905f3535c52374be6e5c2aebbf2a38a3e461"
+    },
+    "evidence/cases/advanced_20261008_linear_verification_working_linear/summary.json": {
+      "bytes": 1233,
+      "sha256": "4cd7e63742fadb64df0f734a5f9b0707f9beb50216f97d322c1a908d58a94c05"
+    },
+    "evidence/cases/advanced_20261008_load_p10000/figures/displacement.png": {
+      "bytes": 402909,
+      "sha256": "8bdf59b2326339b96699a2b2fc6f3264267ebe8a6a7d11938b24584bf3911f37"
+    },
+    "evidence/cases/advanced_20261008_load_p10000/figures/principal_stress.png": {
+      "bytes": 402983,
+      "sha256": "2487ca388d8ed0b2817ef1a78856f42a18e8b39f0e0b83f9031cb75bda6e4bde"
+    },
+    "evidence/cases/advanced_20261008_load_p10000/figures/von_mises_stress.png": {
+      "bytes": 430565,
+      "sha256": "c9b48b698bf2cf62e25950a6afac860cf2a9f545a2c7a4e20f241014709acb14"
+    },
+    "evidence/cases/advanced_20261008_load_p10000/summary.json": {
+      "bytes": 1164,
+      "sha256": "9f8938fce2c7c3aed5ffa242a355ba5baa2ff5a5f1ad7364d467426d3149ff03"
+    },
+    "evidence/cases/advanced_20261008_load_p12500/figures/displacement.png": {
+      "bytes": 402928,
+      "sha256": "c9352471024929f39b1f78f6c1ac3ef20b83ac279043769342cfb487ffb5e3d8"
+    },
+    "evidence/cases/advanced_20261008_load_p12500/figures/principal_stress.png": {
+      "bytes": 402862,
+      "sha256": "5616aa1549ff24448971ad61107d820067b316027bf5be8745200b66beda1978"
+    },
+    "evidence/cases/advanced_20261008_load_p12500/figures/von_mises_stress.png": {
+      "bytes": 431017,
+      "sha256": "2a1c5672f66ecf812e03e6912308c334c71adf31f31c351056577fecc5af01ec"
+    },
+    "evidence/cases/advanced_20261008_load_p12500/summary.json": {
+      "bytes": 1165,
+      "sha256": "ee221120d13e4ef96aebe6941500c20b07b581007aca0fb8a63491fb6a0c360f"
+    },
+    "evidence/cases/advanced_20261008_load_p15000/figures/displacement.png": {
+      "bytes": 403089,
+      "sha256": "fd63d856679b4915e8a12a0d2eb1c09bf9fa54ea74360d3d648773f66af69753"
+    },
+    "evidence/cases/advanced_20261008_load_p15000/figures/principal_stress.png": {
+      "bytes": 402586,
+      "sha256": "dfee334ab6da7d16049ff765468a8ce773314ddc26b10aac1d9563a2332c859e"
+    },
+    "evidence/cases/advanced_20261008_load_p15000/figures/von_mises_stress.png": {
+      "bytes": 431277,
+      "sha256": "2b834a4a14d718b5f0d06606712dacdf7b85dea166f744afb3d1513006aef452"
+    },
+    "evidence/cases/advanced_20261008_load_p15000/summary.json": {
+      "bytes": 1166,
+      "sha256": "6d9e697e884338b850e4ca244292796d364b213d886600b048016565a4cca7ee"
+    },
+    "evidence/cases/advanced_20261008_load_p5000/figures/displacement.png": {
+      "bytes": 403387,
+      "sha256": "1ef00139fd36cb85d9175c0f3ae9758ad200affa3ea2a7e5f466d8dd8e70202a"
+    },
+    "evidence/cases/advanced_20261008_load_p5000/figures/principal_stress.png": {
+      "bytes": 402678,
+      "sha256": "00bc2bfce957c1b32d32d96eb6fdf404f39a61aea1b67367d449a075f3644200"
+    },
+    "evidence/cases/advanced_20261008_load_p5000/figures/von_mises_stress.png": {
+      "bytes": 430118,
+      "sha256": "8669801720fdbaee8cb050d072778cad24abcf904ddd586c26475eb46e139545"
+    },
+    "evidence/cases/advanced_20261008_load_p5000/summary.json": {
+      "bytes": 1162,
+      "sha256": "4bd5b44f8843414468e460e2372ac4f266cd6d15e3603593d53dd67b81fde278"
+    },
+    "evidence/cases/advanced_20261008_load_p7500/figures/displacement.png": {
+      "bytes": 403004,
+      "sha256": "4af24fd7571067199660ba98291094681bb024de99ab59d7d0924b0f7c850e52"
+    },
+    "evidence/cases/advanced_20261008_load_p7500/figures/principal_stress.png": {
+      "bytes": 403058,
+      "sha256": "d641ac0033a6f1dc412548178dd7fe413c923ce2fea2744901d202365e3d5593"
+    },
+    "evidence/cases/advanced_20261008_load_p7500/figures/von_mises_stress.png": {
+      "bytes": 430503,
+      "sha256": "6f86c91a08d7f9b48028e5ff18ca61a935d06f4186e1e317cffe1df4985f2480"
+    },
+    "evidence/cases/advanced_20261008_load_p7500/summary.json": {
+      "bytes": 1161,
+      "sha256": "64741aa4a7bd754eb9b71c659578067838712a306fc7f70cf5dd08657740b7ae"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h1/figures/displacement.png": {
+      "bytes": 279065,
+      "sha256": "366f0fbccbe2d7c2aa94cb05b5c70e5cc3ed2bc5bba78618db97542753a1970a"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h1/figures/principal_stress.png": {
+      "bytes": 302436,
+      "sha256": "63df566b689f9952006cc08395249684e6c257394a5a586228b99d1005dd9263"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h1/figures/von_mises_stress.png": {
+      "bytes": 309900,
+      "sha256": "33da7214749ac85aa2f2f9cd26146006f02bc6549cd98f9e912c99987557d80b"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h1/summary.json": {
+      "bytes": 1110,
+      "sha256": "400a43d94af882790309f33bb6a2c3e41826b726fc9121253ccaa76e7017aa7c"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h2/figures/displacement.png": {
+      "bytes": 282221,
+      "sha256": "6af388848ce47663aa679b1a32af22687f04352e9fa3ef2ce9e97535735c1e73"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h2/figures/principal_stress.png": {
+      "bytes": 301744,
+      "sha256": "442e40a77c76014291e7961725eb0dd228b060f21a576cabaaef013227b006f8"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h2/figures/von_mises_stress.png": {
+      "bytes": 307634,
+      "sha256": "b498aa0b9858fb448680d2cf6d84d257cbe2b4baf9826fa477026508f4b75004"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h2/summary.json": {
+      "bytes": 1108,
+      "sha256": "2ad5419b032283180dac5857a72198cee3b7ecbb3d00d6a397c03f211a285af7"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h3/figures/displacement.png": {
+      "bytes": 283310,
+      "sha256": "a55b2f235ad4790d9f1251bf472ed1b12f578ffa2e53a17f6ad99c18c8b9237e"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h3/figures/principal_stress.png": {
+      "bytes": 300719,
+      "sha256": "a94ec63d538d590a916a1a44c98f8f8fc605a8f73ec210809cd1a2c07f36423d"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h3/figures/von_mises_stress.png": {
+      "bytes": 309729,
+      "sha256": "8423ad1f624d60609382f577a281dfb03d36694c52d2515c05d342e8d91b169f"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h3/summary.json": {
+      "bytes": 1111,
+      "sha256": "d5b987154fba7d1561c542f021fbebaa8a810d5fa943f0ef0b4177f19f30de38"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h4/figures/displacement.png": {
+      "bytes": 281545,
+      "sha256": "1090065b4250775feea046ed14c654f9e152964b77365971f31657474406e86e"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h4/figures/principal_stress.png": {
+      "bytes": 301215,
+      "sha256": "c619ec3c3de98ffabf11b4e8af473133af9666a68ef6a6c7bd7a32fdf62b1c3d"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h4/figures/von_mises_stress.png": {
+      "bytes": 309389,
+      "sha256": "2624c445dc1fdf3696a9b379abd94dce1e152011b03edc927f0e90e79cea6389"
+    },
+    "evidence/cases/advanced_20261008_local_mesh_h4/summary.json": {
+      "bytes": 1110,
+      "sha256": "fdc1d36c1ca4cbe1fef16ae0ebb511fc9a78dcd8f9be7070f5e3a81112f18108"
+    },
+    "evidence/cases/advanced_20261008_material_E1/figures/displacement.png": {
+      "bytes": 402928,
+      "sha256": "c9352471024929f39b1f78f6c1ac3ef20b83ac279043769342cfb487ffb5e3d8"
+    },
+    "evidence/cases/advanced_20261008_material_E1/figures/principal_stress.png": {
+      "bytes": 402705,
+      "sha256": "7337a2c887e6ab6d845a03cbc24b3f900b765c7e7f0fb6b7099d77d57e212478"
+    },
+    "evidence/cases/advanced_20261008_material_E1/figures/von_mises_stress.png": {
+      "bytes": 430559,
+      "sha256": "faeab18e6c0d505e47b3766b3e0eeed1afacff3bc476a102a71dd45e99d15bff"
+    },
+    "evidence/cases/advanced_20261008_material_E1/summary.json": {
+      "bytes": 1164,
+      "sha256": "e31df64214f5b21f1fb64abf6ce39ec8581c9c42e54a10bca7defb9de4156e51"
+    },
+    "evidence/cases/advanced_20261008_material_E2/figures/displacement.png": {
+      "bytes": 402909,
+      "sha256": "8bdf59b2326339b96699a2b2fc6f3264267ebe8a6a7d11938b24584bf3911f37"
+    },
+    "evidence/cases/advanced_20261008_material_E2/figures/principal_stress.png": {
+      "bytes": 402983,
+      "sha256": "2487ca388d8ed0b2817ef1a78856f42a18e8b39f0e0b83f9031cb75bda6e4bde"
+    },
+    "evidence/cases/advanced_20261008_material_E2/figures/von_mises_stress.png": {
+      "bytes": 430565,
+      "sha256": "c9b48b698bf2cf62e25950a6afac860cf2a9f545a2c7a4e20f241014709acb14"
+    },
+    "evidence/cases/advanced_20261008_material_E2/summary.json": {
+      "bytes": 1165,
+      "sha256": "8391d209a3a9edf2b488e91a8c29de38caf1c28fcbb140292b89827439497608"
+    },
+    "evidence/cases/advanced_20261008_material_E3/figures/displacement.png": {
+      "bytes": 402726,
+      "sha256": "11fe497bb18c7c0c363f6e0cce814739b7b7269ffa1260b8c766b86110aa5808"
+    },
+    "evidence/cases/advanced_20261008_material_E3/figures/principal_stress.png": {
+      "bytes": 402851,
+      "sha256": "7c966742deddb6ded5a309cbbcf19763431b0e1141c628f93636a38145fe7be1"
+    },
+    "evidence/cases/advanced_20261008_material_E3/figures/von_mises_stress.png": {
+      "bytes": 430447,
+      "sha256": "642763ee7f155cbba63c2e3de139a2491fdef4f68f2bb40b4fb75a376a0bc275"
+    },
+    "evidence/cases/advanced_20261008_material_E3/summary.json": {
+      "bytes": 1164,
+      "sha256": "93255b5f0731861ec4304cc951c78c25dd4d905bee080bddd30b286b762f43b8"
+    },
+    "evidence/cases/advanced_20261008_table_n10/figures/displacement.png": {
+      "bytes": 402709,
+      "sha256": "53f68d874c4a847aa41612b2c1ab16090fa31943ee8eeab982d23ef9ce4f72f5"
+    },
+    "evidence/cases/advanced_20261008_table_n10/figures/principal_stress.png": {
+      "bytes": 402717,
+      "sha256": "038b516a04a59bd7a9059a76871f236f798bf19a10cb0919995e2cec98eabe98"
+    },
+    "evidence/cases/advanced_20261008_table_n10/figures/von_mises_stress.png": {
+      "bytes": 431194,
+      "sha256": "69d96efe91f879640ba8da701e5e061d2dbe8ea9b7c2b334bd6066c13f40e334"
+    },
+    "evidence/cases/advanced_20261008_table_n10/summary.json": {
+      "bytes": 1169,
+      "sha256": "363b297b2a358cfe656ae8c11bf6418017815b452c8dc5a3f5f7f6306af98fb2"
+    },
+    "evidence/cases/advanced_20261008_table_n21/figures/displacement.png": {
+      "bytes": 402931,
+      "sha256": "c3ae16013fd0b1ba1c292ccbce4d990a851cd9affbe798ca156b4e815e49d6ec"
+    },
+    "evidence/cases/advanced_20261008_table_n21/figures/principal_stress.png": {
+      "bytes": 403010,
+      "sha256": "42d1bfe5232a148280c45959a720ccd329b24df816f4311a537e9fc20943ef63"
+    },
+    "evidence/cases/advanced_20261008_table_n21/figures/von_mises_stress.png": {
+      "bytes": 431114,
+      "sha256": "58c4a52908b026cbca45de2e78aa80d7892da8e31b6343ec6a18327955715a57"
+    },
+    "evidence/cases/advanced_20261008_table_n21/summary.json": {
+      "bytes": 1160,
+      "sha256": "847501a51785d96877926e2b297dce07104ab366e5643a03e470fa95bc6c35f9"
+    },
+    "evidence/cases/advanced_20261008_table_n41/figures/displacement.png": {
+      "bytes": 402935,
+      "sha256": "849907d82c718b472af5b2441179dc7cc6ed18bc3205087620007c1a4da5d9b0"
+    },
+    "evidence/cases/advanced_20261008_table_n41/figures/principal_stress.png": {
+      "bytes": 402979,
+      "sha256": "c3239a6f674204dcc5556972cbe374810e3263738521c3ebcb014504bc34881a"
+    },
+    "evidence/cases/advanced_20261008_table_n41/figures/von_mises_stress.png": {
+      "bytes": 430577,
+      "sha256": "8ee5d265012938194c0ec5034558289600b7aba6a74423ef7a7e237ecdd906d3"
+    },
+    "evidence/cases/advanced_20261008_table_n41/summary.json": {
+      "bytes": 1161,
+      "sha256": "9014de596e3b33baa228672566eb03d64ee6dda198292b2cb601ee2d9ef50546"
+    },
+    "evidence/cases/advanced_20261008_table_n81/advanced_20261008_table_n81.err": {
+      "bytes": 2715,
+      "sha256": "74b6bcf10d8c1bac343b72c2a7e7d5f20651dd5688d9e0d0a6e91395772992dc"
+    },
+    "evidence/cases/advanced_20261008_table_n81/baseline.vtu": {
+      "bytes": 3320398,
+      "sha256": "e3c3a92167d68fcaa140deb9aec55c6bfa0401e8e8a9f99c6c1302d7ad9c5198"
+    },
+    "evidence/cases/advanced_20261008_table_n81/commands.apdl": {
+      "bytes": 2292,
+      "sha256": "95e944a05fa7293614a410b2b19bec12a4c3b8046062a232b07644212992848a"
+    },
+    "evidence/cases/advanced_20261008_table_n81/csv/nodal_results.csv": {
+      "bytes": 4597223,
+      "sha256": "519942fe5e05c451e9304d04cdda600fb75515e0a5683200ece2231c4c190c86"
+    },
+    "evidence/cases/advanced_20261008_table_n81/csv/pressure_table.csv": {
+      "bytes": 4074,
+      "sha256": "e4bc104b9c1c4e771f4e882774c7d40e62f11504785327fb44be5ca42ed220c3"
+    },
+    "evidence/cases/advanced_20261008_table_n81/figures/displacement.png": {
+      "bytes": 402909,
+      "sha256": "8bdf59b2326339b96699a2b2fc6f3264267ebe8a6a7d11938b24584bf3911f37"
+    },
+    "evidence/cases/advanced_20261008_table_n81/figures/principal_stress.png": {
+      "bytes": 402983,
+      "sha256": "2487ca388d8ed0b2817ef1a78856f42a18e8b39f0e0b83f9031cb75bda6e4bde"
+    },
+    "evidence/cases/advanced_20261008_table_n81/figures/von_mises_stress.png": {
+      "bytes": 430565,
+      "sha256": "c9b48b698bf2cf62e25950a6afac860cf2a9f545a2c7a4e20f241014709acb14"
+    },
+    "evidence/cases/advanced_20261008_table_n81/load_definition.json": {
+      "bytes": 30391,
+      "sha256": "eb8229a7f7a774fda4495f79ac000e7a41b8a4d2da7a924f84bf933d6f15dbd9"
+    },
+    "evidence/cases/advanced_20261008_table_n81/reaction_global.txt": {
+      "bytes": 102425,
+      "sha256": "cd69752aa0876d7df90d7d4a365bad786c7b001a5e0efac3ab2525ae36c2490c"
+    },
+    "evidence/cases/advanced_20261008_table_n81/solve_output.txt": {
+      "bytes": 5469,
+      "sha256": "1eb98b7186154bde6000cd70d178f22256ea818ea4757f71093bae6233d54d82"
+    },
+    "evidence/cases/advanced_20261008_table_n81/summary.json": {
+      "bytes": 1160,
+      "sha256": "85375e01edf99d455db18fdd7bd83c8ca683fe6a3b77881d215f896d37c3c473"
+    },
+    "evidence/cases/parity/baseline.vtu": {
+      "bytes": 192457,
+      "sha256": "6c8755991fdd4926014c7a9d8364d3a2031e46ad4f6c5c8a336080be2b86c4a3"
+    },
+    "evidence/cases/parity/commands.apdl": {
+      "bytes": 2260,
+      "sha256": "e524c6189d12dc383f41aefbdc6f9f022bcb3f39a313a8a4b30ee241ca0127fa"
+    },
+    "evidence/cases/parity/csv/nodal_results.csv": {
+      "bytes": 188586,
+      "sha256": "497cf9ba03ef0c576a1cc5b6917399fbbdc946610ae83a8610e74df86ab97603"
+    },
+    "evidence/cases/parity/csv/pressure_table.csv": {
+      "bytes": 524,
+      "sha256": "1f4504460c267dd803a4e87dca65e1e7c892fe694265934dfab831a873c823da"
+    },
+    "evidence/cases/parity/figures/displacement.png": {
+      "bytes": 283310,
+      "sha256": "a55b2f235ad4790d9f1251bf472ed1b12f578ffa2e53a17f6ad99c18c8b9237e"
+    },
+    "evidence/cases/parity/figures/principal_stress.png": {
+      "bytes": 300719,
+      "sha256": "a94ec63d538d590a916a1a44c98f8f8fc605a8f73ec210809cd1a2c07f36423d"
+    },
+    "evidence/cases/parity/figures/von_mises_stress.png": {
+      "bytes": 309729,
+      "sha256": "8423ad1f624d60609382f577a281dfb03d36694c52d2515c05d342e8d91b169f"
+    },
+    "evidence/cases/parity/force_balance.json": {
+      "bytes": 812,
+      "sha256": "fcdfd59abac7a88b185692f841cb1fb3b36ecad30818336f5c341ad9a284afb5"
+    },
+    "evidence/cases/parity/load_definition.json": {
+      "bytes": 2129,
+      "sha256": "4b5a40d4bcedfcae8d29a254d7649d0411d2861658e274f92f1c5f71dec0703b"
+    },
+    "evidence/cases/parity/parity.err": {
+      "bytes": 2309,
+      "sha256": "37e4e943a4e9c7c38188e211a5b3935f89fb5e75191a73c73a1836e54f5aa78c"
+    },
+    "evidence/cases/parity/reaction_global.txt": {
+      "bytes": 17102,
+      "sha256": "01efd3e12be734809ddd5113fd05cd28eb98cc8ad97233c453ae03a4b8e15c6b"
+    },
+    "evidence/cases/parity/solve_output.txt": {
+      "bytes": 6010,
+      "sha256": "80d255881cfb285ba62badf603e04f32ad9b714206bc7796805b0cae63bcc3cd"
+    },
+    "evidence/cases/parity/summary.json": {
+      "bytes": 1059,
+      "sha256": "55008e73c1b89e151b9176e5c1cc94de997d0ea44908f118609c4b97e0fc906f"
+    },
+    "evidence/delivery_validation.json": {
+      "bytes": 337,
+      "sha256": "91f4c7a344813588448521a3dd14f1e04b9a355b4336c2a46101442e0b5ffc57"
+    },
+    "evidence/dense_mesh_changes.csv": {
+      "bytes": 340,
+      "sha256": "2763eee57eb67769804459c0433cfb5eade1a40ab4831b95a13632f375dd9caa"
+    },
+    "evidence/export_checks.csv": {
+      "bytes": 3419,
+      "sha256": "f2f5cfa8581b90b6a7b7e7553582e0420b0d39b1732ba0a8cf5fea9a26814345"
+    },
+    "evidence/global_187_changes.csv": {
+      "bytes": 701,
+      "sha256": "eb959df05f1dc27cbc10298d8c70078be352edfa694b9e45ceb61d1c4519ceeb"
+    },
+    "evidence/global_285_changes.csv": {
+      "bytes": 571,
+      "sha256": "261826b63e703dabe56e6dad17e18693ca06730116f5a83e3d2157c21db07dfb"
+    },
+    "evidence/local_mesh_changes.csv": {
+      "bytes": 458,
+      "sha256": "56651f2175ca6c5699e214d9115874c6c117441caa67cd4be672703e6f33de7f"
+    },
+    "evidence/metrics.json": {
+      "bytes": 7198,
+      "sha256": "4fed2049d1acd5a5c17bf7e9a4499a0e1ab6a32f9a13cf784fc7162b72ebfb3e"
+    },
+    "evidence/PROVENANCE.json": {
+      "bytes": 1500,
+      "sha256": "1f9c29ec64b46a4b29d26764402a2f35db5bd41e1dae3d7a9f0611bab8c1b690"
+    },
+    "evidence/snapshots.csv": {
+      "bytes": 2566,
+      "sha256": "0c6d4ea1e2c832611cacd213d5cebd16e65ed6aafa851c4245873cd9fb83851f"
+    },
+    "evidence/studies/dense_mesh/analysis/fixed_point_results.csv": {
+      "bytes": 608,
+      "sha256": "d2d472ab00cc9626da6802689461695fc4aac9ca70eef971f8fd8ffe1b2ed0bf"
+    },
+    "evidence/studies/dense_mesh/analysis/probe_definition.json": {
+      "bytes": 264,
+      "sha256": "ced01154cef4332fe006aefa4d599cf5dd717da0d09bd07836c59405e729b95a"
+    },
+    "evidence/studies/dense_mesh/study_results.csv": {
+      "bytes": 2084,
+      "sha256": "4a8856f598d8e2a81cda277760287aefdd67ba5535a996184e042fbee9dfecef"
+    },
+    "evidence/studies/doe/analysis/fixed_point_results.csv": {
+      "bytes": 1494,
+      "sha256": "5458ab6a90eb2161b9c5d931738e22b6a82adc513b331aa78e6feb250224130c"
+    },
+    "evidence/studies/doe/analysis/probe_definition.json": {
+      "bytes": 264,
+      "sha256": "ced01154cef4332fe006aefa4d599cf5dd717da0d09bd07836c59405e729b95a"
+    },
+    "evidence/studies/doe/study_results.csv": {
+      "bytes": 5366,
+      "sha256": "cb59cbd3eab362c4311b03d1171e455f4afe9e5e1be18bd56a0877ca473c64f8"
+    },
+    "evidence/studies/element/analysis/fixed_point_results.csv": {
+      "bytes": 1027,
+      "sha256": "29253e597b14ab4c2d59ac1bd064fa6e4b5eda2e6ab10374612a4453b8220449"
+    },
+    "evidence/studies/element/analysis/probe_definition.json": {
+      "bytes": 264,
+      "sha256": "ced01154cef4332fe006aefa4d599cf5dd717da0d09bd07836c59405e729b95a"
+    },
+    "evidence/studies/element/study_results.csv": {
+      "bytes": 3516,
+      "sha256": "2e00eb8564b91a32d0a831e60af8a048dd1ec97a4e450e524dbddc484ea23461"
+    },
+    "evidence/studies/global_187/analysis/fixed_point_results.csv": {
+      "bytes": 1051,
+      "sha256": "60a4b46546d362585bb2a62ed6e565034683c751ea1717a7d8c8d8d9412c8f46"
+    },
+    "evidence/studies/global_187/analysis/probe_definition.json": {
+      "bytes": 264,
+      "sha256": "ced01154cef4332fe006aefa4d599cf5dd717da0d09bd07836c59405e729b95a"
+    },
+    "evidence/studies/global_187/study_results.csv": {
+      "bytes": 3546,
+      "sha256": "bd0444c219de74da0c27daa8109cd26e04d5765440bdc2de93acf07e2cc46ca7"
+    },
+    "evidence/studies/global_285/analysis/fixed_point_results.csv": {
+      "bytes": 898,
+      "sha256": "56b5f98d4676634138bb116b161b8c635758a4b79c949dd1dec5f95cf66a7376"
+    },
+    "evidence/studies/global_285/analysis/probe_definition.json": {
+      "bytes": 264,
+      "sha256": "ced01154cef4332fe006aefa4d599cf5dd717da0d09bd07836c59405e729b95a"
+    },
+    "evidence/studies/global_285/study_results.csv": {
+      "bytes": 3006,
+      "sha256": "da2fb3b3cfed0989a81b00052429a1988d537442877b45dff37ef78b6243b22d"
+    },
+    "evidence/studies/linear_verification/analysis/fixed_point_results.csv": {
+      "bytes": 503,
+      "sha256": "3d7598f6d6e695c3b576bf7ab7ce6c66a157e6f36995fd4bc53b8b13b9bc09a7"
+    },
+    "evidence/studies/linear_verification/analysis/probe_definition.json": {
+      "bytes": 264,
+      "sha256": "ced01154cef4332fe006aefa4d599cf5dd717da0d09bd07836c59405e729b95a"
+    },
+    "evidence/studies/linear_verification/study_results.csv": {
+      "bytes": 1663,
+      "sha256": "8b8d3b33cbd38089a40e6225b6482403d8c80865865c38b41a5c17980c4d3cba"
+    },
+    "evidence/studies/load/analysis/fixed_point_results.csv": {
+      "bytes": 901,
+      "sha256": "aea688686bd8c9ad3330f3eec1627c1e5c25855960ab30c5d4f9f83473c29897"
+    },
+    "evidence/studies/load/analysis/probe_definition.json": {
+      "bytes": 264,
+      "sha256": "ced01154cef4332fe006aefa4d599cf5dd717da0d09bd07836c59405e729b95a"
+    },
+    "evidence/studies/load/study_results.csv": {
+      "bytes": 3155,
+      "sha256": "72ce2c750a1dc9e17b56362eec5a14365d730e727c906c8dbe4cacdc6fb18310"
+    },
+    "evidence/studies/local_mesh/analysis/fixed_point_results.csv": {
+      "bytes": 737,
+      "sha256": "a7fec9141b0a565f7808c66e634480d0c7c7c3d939c75dbf4d754e9aa17ed7d1"
+    },
+    "evidence/studies/local_mesh/analysis/probe_definition.json": {
+      "bytes": 264,
+      "sha256": "ced01154cef4332fe006aefa4d599cf5dd717da0d09bd07836c59405e729b95a"
+    },
+    "evidence/studies/local_mesh/study_results.csv": {
+      "bytes": 2474,
+      "sha256": "b7510dd66881a3237b521659a00da22fd252fe986c8bba6d27e50491d21fbb07"
+    },
+    "evidence/studies/material/analysis/fixed_point_results.csv": {
+      "bytes": 600,
+      "sha256": "3c56cd72be8ecfc3091ddd8c61b06e3183b66c8a3bf1625996bf705fde06e041"
+    },
+    "evidence/studies/material/analysis/probe_definition.json": {
+      "bytes": 264,
+      "sha256": "ced01154cef4332fe006aefa4d599cf5dd717da0d09bd07836c59405e729b95a"
+    },
+    "evidence/studies/material/study_results.csv": {
+      "bytes": 2067,
+      "sha256": "e7b3531e9cb8f8517e1bc9e6ebfc52e6faa6f087e93b42625c296b1e1d450306"
+    },
+    "evidence/studies/table/analysis/fixed_point_results.csv": {
+      "bytes": 740,
+      "sha256": "3514d1b86aeef264be81b6426dbd6a4d432bcccbdf135036694cd610ff81c0f7"
+    },
+    "evidence/studies/table/analysis/probe_definition.json": {
+      "bytes": 264,
+      "sha256": "ced01154cef4332fe006aefa4d599cf5dd717da0d09bd07836c59405e729b95a"
+    },
+    "evidence/studies/table/study_results.csv": {
+      "bytes": 2606,
+      "sha256": "ad952275f009abfc822f006dc3373e1e5c7168e70fa69695c98f61195ba461fc"
+    },
+    "evidence/thermal_demo/element_after_conversion.txt": {
+      "bytes": 465,
+      "sha256": "0fed88240fd518ce4facb10a2293f0b6165186b5706ea68e7fdfabb91a0c5681"
+    },
+    "evidence/thermal_demo/figures/displacement.png": {
+      "bytes": 225254,
+      "sha256": "7d1a7bad0a8973b68764518b1e1e8a174d31840e914477dce0bd4fda84a0c9d8"
+    },
+    "evidence/thermal_demo/figures/temperature.png": {
+      "bytes": 224138,
+      "sha256": "dcd357629e669a11b7e46d4fdef31a1db38676fb0b6369031a232317b0953982"
+    },
+    "evidence/thermal_demo/figures/von_mises_stress.png": {
+      "bytes": 169239,
+      "sha256": "1c157ea4c421d73139063fee416338e4b1c5bd4cd25474d2fbbb8cab3b1b0172"
+    },
+    "evidence/thermal_demo/structural_nodal_results.csv": {
+      "bytes": 592158,
+      "sha256": "bb1773a31a124e1db586b0b8f65f49a204a04b7c26cb449fb8baba935cffff5c"
+    },
+    "evidence/thermal_demo/structural_solve.txt": {
+      "bytes": 3112,
+      "sha256": "d88bf8a14acb5caa8bd07461831f5a373f05fc349aa76fae18ee16a34d621e96"
+    },
+    "evidence/thermal_demo/teaching_summary.json": {
+      "bytes": 509,
+      "sha256": "008e10c65c1fb66ab2b4eb908beaca99d59c7ab13026b10816caa1554ab8d396"
+    },
+    "evidence/thermal_demo/temperature_degC.csv": {
+      "bytes": 117972,
+      "sha256": "57653a580bad17040650efdfa4ae05287e1020c8edc09ffaf21288653312fb99"
+    },
+    "evidence/thermal_demo/thermal_solve.txt": {
+      "bytes": 2850,
+      "sha256": "efee4260da80f5b45d594c932d71add88af2804c35cd215322bbf0c56540b2cf"
+    },
+    "evidence/thermal_demo/thermal_structural.vtu": {
+      "bytes": 225001,
+      "sha256": "9b88d8426b04339bdce29bdaaa0a84d25f433e22fa2558abeec84196c1335dbf"
+    },
+    "execute_advanced.py": {
+      "bytes": 8295,
+      "sha256": "c77bf28977fceb1d27cec2691bb8770cb9a66899bd5ca0dbf17c73f046fa5cdf"
+    },
+    "force_audit.py": {
+      "bytes": 3496,
+      "sha256": "65d1c5a750467f3d32056082889b355ef09392f2ed7707e5f14a33fd4dccd00d"
+    },
+    "LICENSE": {
+      "bytes": 1077,
+      "sha256": "f5eee63fb76b6585d82d7c3e7e7c5136331316c3256e72cb6bdf587f234d20de"
+    },
+    "NOTICE.md": {
+      "bytes": 1027,
+      "sha256": "3ee3596feabc43473e8f513294675c5c7ad8ea5d2b64ab22edbf3a1412899f29"
+    },
+    "plans/dense_mesh.json": {
+      "bytes": 628,
+      "sha256": "6b88ec8ee052b01cf0febd79e849b52397839cc1720232373c32e8f7defc95db"
+    },
+    "plans/doe.json": {
+      "bytes": 1862,
+      "sha256": "5882bae491b403ccc409b879081b1e46c1dd5b427a8461ac994bcc97f098df86"
+    },
+    "plans/element.json": {
+      "bytes": 1083,
+      "sha256": "f30927c1fc114f0c0651e171a0b74cb49b6c47c0f74e577b2a64daf1add0f333"
+    },
+    "plans/full_campaign.json": {
+      "bytes": 9542,
+      "sha256": "47a3c3a09e4a270b24743d9d9d4820f16db0e26dee2a6d3dc370eb66649d5754"
+    },
+    "plans/global_187.json": {
+      "bytes": 1230,
+      "sha256": "737b5d6e6ad5574cda3c46e1289b2f87542401990484b538f73629329e825507"
+    },
+    "plans/global_285.json": {
+      "bytes": 1028,
+      "sha256": "cebdbb56c8881ffd6f6522c8ce74b735bb8ab0b8ad63db06b64205b5a8c56fca"
+    },
+    "plans/linear_verification.json": {
+      "bytes": 476,
+      "sha256": "166d96fbd2461a8c3e35cc147d4e4ed7452633ace8def418473ab193f7c9e876"
+    },
+    "plans/load.json": {
+      "bytes": 1034,
+      "sha256": "ce1bedd50549630059c484d48fa4e28c98c5af483c0334e1fec038e6d10b1903"
+    },
+    "plans/local_mesh.json": {
+      "bytes": 719,
+      "sha256": "3f21dd70e33730e4d8f92a66d8d8fdb4237d7890bbd0ba9cd4266d6d1c159e5c"
+    },
+    "plans/material.json": {
+      "bytes": 621,
+      "sha256": "81516c868c1312669f7dad77292a8731c384dce6cd193f2ca603aaeea3f70ee3"
+    },
+    "plans/table.json": {
+      "bytes": 823,
+      "sha256": "4620db46718aa851786680e7c6e93d0a4c5674659525172342528c4daed379b0"
+    },
+    "probe_study.py": {
+      "bytes": 3374,
+      "sha256": "8726f40655107e48303497c73bef051903d1f6cb8dd3779b6a384d6be333c8e4"
+    },
+    "README.md": {
+      "bytes": 8045,
+      "sha256": "a197931054a923a41b0c7969d40133a8fbc01ef1ce038153975af3703e10752f"
+    },
+    "requirements-lock.txt": {
+      "bytes": 951,
+      "sha256": "4af4040d734e490909237491a904e9b15134dbfdcbff7d7c89488a3dcb07cbf5"
+    },
+    "requirements.txt": {
+      "bytes": 73,
+      "sha256": "7c986a512bb1a66534e9129eb3e326df4642956b71584915aa142db6a086e122"
+    },
+    "src/__init__.py": {
+      "bytes": 61,
+      "sha256": "3a14816ce81015cc71e48e9df48504c266e2d68570269b8ed53586f728836628"
+    },
+    "src/baseline.py": {
+      "bytes": 7045,
+      "sha256": "490686b268b83e3c8c7be70829b5a5c35bbb215b02c880b97b2cc96295a4bb00"
+    },
+    "src/baseline_advanced.py": {
+      "bytes": 9936,
+      "sha256": "fc0ae0cc146e6c39f7be805fdacb4f7b1e1364b6feffb148c187f9e80d1bb8b0"
+    },
+    "src/mapdl_session.py": {
+      "bytes": 1802,
+      "sha256": "ed99b33277aed6ad76672bf49f1aa5ef03f72fb012ae47b891af68991e41abf1"
+    },
+    "tests/test_workflow.py": {
+      "bytes": 3097,
+      "sha256": "cc0e52831b9ea188266681deb384f94de908989b1e820fab2ba64572e62dfa04"
+    },
+    "thermal_demo.py": {
+      "bytes": 5832,
+      "sha256": "2024533f893d41cbf612a9d6bbbe0a527a2fc0986328977a6fc11c0f0935ea97"
+    },
+    "third_party/EXAMPLE_DATA_LICENSE.txt": {
+      "bytes": 1115,
+      "sha256": "acde722d7dec67188cf098f50274dd2c514ca858df64ee6b3fb113edac807cb1"
+    },
+    "third_party/PYMAPDL_LICENSE.txt": {
+      "bytes": 1115,
+      "sha256": "cc162e3949f5f17881b6e0b1c6807e6d7ae8bc0c432cef680790b4db5ae374d6"
+    },
+    "verify_evidence.py": {
+      "bytes": 6714,
+      "sha256": "20b43bdd95d28ee0356376744963fecd8a82342acdc0968444c0624433b39a51"
+    }
+  }
+}

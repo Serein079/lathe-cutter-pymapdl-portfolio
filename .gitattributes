@@ -1,0 +1,14 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.anf -text
+*.png binary
+*.pdf binary
+*.vtu binary
+# Preserve padding in upstream geometry and historical solver listings.
+data/geometry/*.anf -whitespace
+evidence/**/*.txt -whitespace
+evidence/**/*.err -whitespace

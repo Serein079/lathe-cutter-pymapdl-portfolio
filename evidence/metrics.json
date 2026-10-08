@@ -1,0 +1,227 @@
+{
+  "structural_cases": 47,
+  "study_groups": 10,
+  "force_balance_linear": {
+    "run_directory": "evidence/cases/advanced_20261008_linear_verification_baseline_linear",
+    "area_in2": 0.0005474839963028057,
+    "loaded_triangles": 184,
+    "integrated_pressure_force_lbf": [
+      3.460870793117151,
+      -6.9851034982937696e-15,
+      2.861641948595244e-16
+    ],
+    "reaction_global_lbf": [
+      -3.460870793116,
+      1.7749690606195e-14,
+      -5.8203442065974e-14
+    ],
+    "residual_initial_geometry": 3.330334245546879e-13,
+    "residual_deformed_geometry": 0.003105486019158207,
+    "deformed_pressure_force_lbf": [
+      3.46176477556611,
+      -0.009963918996099155,
+      0.003936325206588877
+    ],
+    "nlgeom": false,
+    "method": "Boundary tetra faces on area-14 node set; piecewise-linear nodal pressure; global PRRSOL F total",
+    "scope": "Force resultant only. Nonlinear deformed integration assumes pressure values retained from initial coordinates."
+  },
+  "force_balance_nonlinear": {
+    "run_directory": "evidence/cases/parity",
+    "area_in2": 0.0005474839963028057,
+    "loaded_triangles": 184,
+    "integrated_pressure_force_lbf": [
+      3.460870793117151,
+      -6.9851034982937696e-15,
+      2.861641948595244e-16
+    ],
+    "reaction_global_lbf": [
+      -3.4617472091657,
+      0.0099663344025971,
+      -0.0039382732013932
+    ],
+    "residual_initial_geometry": 0.003106738187001985,
+    "residual_deformed_geometry": 1.9053785964744292e-07,
+    "deformed_pressure_force_lbf": [
+      3.461746928842871,
+      -0.009965792647744234,
+      0.003938022225284336
+    ],
+    "nlgeom": true,
+    "method": "Boundary tetra faces on area-14 node set; piecewise-linear nodal pressure; global PRRSOL F total",
+    "scope": "Force resultant only. Nonlinear deformed integration assumes pressure values retained from initial coordinates."
+  },
+  "local_mesh": {
+    "last_two_changes": [
+      {
+        "from_case": "advanced_20261008_local_mesh_h2",
+        "to_case": "advanced_20261008_local_mesh_h3",
+        "displacement_change_percent": 0.37190100699036066,
+        "fixed_vm_change_percent": 6.755862959390573,
+        "peak_vm_change_percent": 3.683633450490733
+      },
+      {
+        "from_case": "advanced_20261008_local_mesh_h3",
+        "to_case": "advanced_20261008_local_mesh_h4",
+        "displacement_change_percent": 0.18887244089119032,
+        "fixed_vm_change_percent": 3.2977257002197997,
+        "peak_vm_change_percent": 0.7364496838693124
+      }
+    ],
+    "last_u_mm": 0.013375072855576962,
+    "last_probe_vm_MPa": 48.88768297772805,
+    "last_peak_vm_MPa": 62.643446236228755
+  },
+  "global_285": {
+    "last_two_changes": [
+      {
+        "from_case": "advanced_20261008_global_285_h3",
+        "to_case": "advanced_20261008_global_285_h4",
+        "displacement_change_percent": 4.657961789419175,
+        "fixed_vm_change_percent": 4.5864312587541844,
+        "peak_vm_change_percent": 0.17629929538112063
+      },
+      {
+        "from_case": "advanced_20261008_global_285_h4",
+        "to_case": "advanced_20261008_global_285_h5",
+        "displacement_change_percent": 3.122706642177,
+        "fixed_vm_change_percent": 2.3201402664810824,
+        "peak_vm_change_percent": 1.3372802796610213
+      }
+    ],
+    "last_u_mm": 0.015022104403127862,
+    "last_probe_vm_MPa": 57.04080901738432,
+    "last_peak_vm_MPa": 66.64146513906442
+  },
+  "global_187": {
+    "last_two_changes": [
+      {
+        "from_case": "advanced_20261008_global_187_h4",
+        "to_case": "advanced_20261008_global_187_h5",
+        "displacement_change_percent": 0.19440179439668007,
+        "fixed_vm_change_percent": 0.538973963890504,
+        "peak_vm_change_percent": 12.729401622789885
+      },
+      {
+        "from_case": "advanced_20261008_global_187_h5",
+        "to_case": "advanced_20261008_global_187_h6",
+        "displacement_change_percent": 0.1437324405082954,
+        "fixed_vm_change_percent": 0.3132682709433588,
+        "peak_vm_change_percent": 17.451916719095397
+      }
+    ],
+    "last_u_mm": 0.015737807489583224,
+    "last_probe_vm_MPa": 60.78749249855694,
+    "last_peak_vm_MPa": 110.14991731606534
+  },
+  "dense_mesh": {
+    "last_two_changes": [
+      {
+        "from_case": "advanced_20261008_dense_mesh_h4",
+        "to_case": "advanced_20261008_dense_mesh_h5",
+        "displacement_change_percent": 0.1910238995836504,
+        "fixed_vm_change_percent": 0.4952813243872358,
+        "peak_vm_change_percent": 12.726397535142018
+      },
+      {
+        "from_case": "advanced_20261008_dense_mesh_h5",
+        "to_case": "advanced_20261008_dense_mesh_h6",
+        "displacement_change_percent": 0.14383563915849668,
+        "fixed_vm_change_percent": 0.31408351068121165,
+        "peak_vm_change_percent": 17.452126425017923
+      }
+    ],
+    "last_u_mm": 0.01589795137501115,
+    "last_probe_vm_MPa": 61.4647852902474,
+    "last_peak_vm_MPa": 111.26641601751903
+  },
+  "table_last_pair": {
+    "u_change_percent": 0.03863777034956175,
+    "peak_vm_change_percent": 0.03855677408798641,
+    "ten_to_81_u_change_percent": 1.0072217297158195
+  },
+  "load": {
+    "slope_mm_per_psi": 1.5885995675602396e-06,
+    "intercept_mm": -9.384990683042075e-06,
+    "linear_R2": 0.9999999482500588,
+    "pressures_psi": [
+      5000.0,
+      7500.0,
+      10000.0,
+      12500.0,
+      15000.0
+    ],
+    "u_mm": [
+      0.007935108162669645,
+      0.011904410483656792,
+      0.01587508445503782,
+      0.01984728464846298,
+      0.023821165674769555
+    ]
+  },
+  "material": {
+    "max_inverse_E_scaling_error_percent": 0.017280309533829197,
+    "moduli_psi": [
+      8000000.0,
+      10000000.0,
+      12000000.0
+    ],
+    "u_mm": [
+      0.01984728464846301,
+      0.01587508445503782,
+      0.013227808435466948
+    ],
+    "peak_vm_MPa": [
+      91.81729013388696,
+      91.84806042555522,
+      91.86911518008819
+    ]
+  },
+  "doe": {
+    "cases": 9,
+    "log_fit_pressure_exponent": 1.0006762073595588,
+    "log_fit_E_exponent": -1.0007048044679634,
+    "log_fit_max_relative_error_percent": 0.0067575686402365776
+  },
+  "nonlinear_vs_linear_working": {
+    "max_u_in": 0.05613339186679107,
+    "max_seqv_psi": -0.14459439326445406,
+    "max_s1_psi": -0.14997808117957398
+  },
+  "parity_relative_error": {
+    "max_u_in": 3.4936328769671957e-15,
+    "max_s1_psi": 0.0,
+    "max_seqv_psi": 0.0
+  },
+  "baseline_vs_fine_U_increase_percent": 17.443391250119745,
+  "fine_peak": {
+    "node": 206,
+    "point_in": [
+      -0.05905511811027555,
+      -1.54336796283064e-09,
+      -0.120610191597221
+    ],
+    "stress_psi": 15975.894819081828
+  },
+  "thermal": {
+    "model": "synthetic SI teaching block, not cutter",
+    "thermal_converged": true,
+    "structural_converged": true,
+    "tmin_degC": 20.0,
+    "tmax_degC": 100.0,
+    "max_u_m": 1.5071965371698254e-05,
+    "max_seqv_Pa": 11027549.505088598,
+    "nodes": 2359,
+    "elements": 1324,
+    "max_temperature_analytical_error_degC": 7.247535904753022e-13,
+    "run_directory": "evidence/thermal_demo",
+    "inputs": {
+      "k_W_mK": 45,
+      "E_Pa": 70000000000.0,
+      "nu": 0.27,
+      "alpha_per_K": 1.2e-05,
+      "Tref_degC": 20
+    }
+  },
+  "png_files": 165
+}

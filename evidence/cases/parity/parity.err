@@ -1,0 +1,37 @@
+/COM,ANSYS RELEASE 2026 R1           BUILD 26.1      UP20260202       19:46:46
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ Line 20 on area 3 is not on the area within a tolerance.  This area     
+ could have problems in future Boolean operations.  (See the BTOL        
+ command).                                                               
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ Line 18 on area 5 is not on the area within a tolerance.  This area     
+ could have problems in future Boolean operations.  (See the BTOL        
+ command).                                                               
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ Both solid model and finite element model boundary conditions have been 
+ applied to this model.  As solid loads are transferred to the nodes or  
+ elements, they can overwrite directly applied loads.                    
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ The program chosen initial timestep/load-factor is arbitrary.  It is    
+ necessary for the user to supply a suitable initial                     
+ timestep/load-factor through the NSUB or DELTIM command for             
+ convergence and overall efficiency.                                     
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ A reference volume value times the tolerance is used by the             
+ Newton-Raphson method for checking convergence.  The calculated         
+ reference VOLUME CONVERGENCE VALUE = 1.181252113E-04 is less than a     
+ threshold.  This threshold is internally calculated.  You can           
+ overwrite it by specifying MINREF on the CNVTOL command.  Check         
+ results carefully.                                                      

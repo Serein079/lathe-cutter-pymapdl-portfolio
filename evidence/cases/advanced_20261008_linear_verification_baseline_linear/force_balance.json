@@ -1,0 +1,25 @@
+{
+  "run_directory": "evidence/cases/advanced_20261008_linear_verification_baseline_linear",
+  "area_in2": 0.0005474839963028057,
+  "loaded_triangles": 184,
+  "integrated_pressure_force_lbf": [
+    3.460870793117151,
+    -6.9851034982937696e-15,
+    2.861641948595244e-16
+  ],
+  "reaction_global_lbf": [
+    -3.460870793116,
+    1.7749690606195e-14,
+    -5.8203442065974e-14
+  ],
+  "residual_initial_geometry": 3.330334245546879e-13,
+  "residual_deformed_geometry": 0.003105486019158207,
+  "deformed_pressure_force_lbf": [
+    3.46176477556611,
+    -0.009963918996099155,
+    0.003936325206588877
+  ],
+  "nlgeom": false,
+  "method": "Boundary tetra faces on area-14 node set; piecewise-linear nodal pressure; global PRRSOL F total",
+  "scope": "Force resultant only. Nonlinear deformed integration assumes pressure values retained from initial coordinates."
+}

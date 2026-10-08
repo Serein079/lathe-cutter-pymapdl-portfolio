@@ -1,0 +1,54 @@
+{
+  "load": [
+    {
+      "case": "p5000",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 5000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "p7500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 7500.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "p10000",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "p12500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 12500.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "p15000",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 15000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    }
+  ]
+}

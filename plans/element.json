@@ -1,0 +1,58 @@
+{
+  "element": [
+    {
+      "case": "285_1",
+      "element": 285,
+      "tip_size": 0.0035,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    },
+    {
+      "case": "285_2",
+      "element": 285,
+      "tip_size": 0.0025,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    },
+    {
+      "case": "285_3",
+      "element": 285,
+      "tip_size": 0.0018,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    },
+    {
+      "case": "187_1",
+      "element": 187,
+      "tip_size": 0.0035,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    },
+    {
+      "case": "187_2",
+      "element": 187,
+      "tip_size": 0.0025,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    },
+    {
+      "case": "187_3",
+      "element": 187,
+      "tip_size": 0.0018,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    }
+  ]
+}

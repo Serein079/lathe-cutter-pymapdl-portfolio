@@ -1,0 +1,34 @@
+{
+  "dense_mesh": [
+    {
+      "case": "h4",
+      "element": 187,
+      "tip_size": 0.0014,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.014
+    },
+    {
+      "case": "h5",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "h6",
+      "element": 187,
+      "tip_size": 0.0007,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.007
+    }
+  ]
+}

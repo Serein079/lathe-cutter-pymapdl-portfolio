@@ -1,0 +1,488 @@
+{
+  "parity": [
+    {
+      "case": "baseline"
+    }
+  ],
+  "local_mesh": [
+    {
+      "case": "h1",
+      "element": 285,
+      "tip_size": 0.005,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    },
+    {
+      "case": "h2",
+      "element": 285,
+      "tip_size": 0.0035,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    },
+    {
+      "case": "h3",
+      "element": 285,
+      "tip_size": 0.0025,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    },
+    {
+      "case": "h4",
+      "element": 285,
+      "tip_size": 0.0018,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    }
+  ],
+  "global_285": [
+    {
+      "case": "h1",
+      "element": 285,
+      "tip_size": 0.004,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "global_size": 0.04
+    },
+    {
+      "case": "h2",
+      "element": 285,
+      "tip_size": 0.0028,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "global_size": 0.028
+    },
+    {
+      "case": "h3",
+      "element": 285,
+      "tip_size": 0.002,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "global_size": 0.02
+    },
+    {
+      "case": "h4",
+      "element": 285,
+      "tip_size": 0.0014,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "global_size": 0.014
+    },
+    {
+      "case": "h5",
+      "element": 285,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "global_size": 0.01
+    }
+  ],
+  "global_187": [
+    {
+      "case": "h1",
+      "element": 187,
+      "tip_size": 0.004,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "global_size": 0.04
+    },
+    {
+      "case": "h2",
+      "element": 187,
+      "tip_size": 0.0028,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "global_size": 0.028
+    },
+    {
+      "case": "h3",
+      "element": 187,
+      "tip_size": 0.002,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "global_size": 0.02
+    },
+    {
+      "case": "h4",
+      "element": 187,
+      "tip_size": 0.0014,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "global_size": 0.014
+    },
+    {
+      "case": "h5",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "global_size": 0.01
+    },
+    {
+      "case": "h6",
+      "element": 187,
+      "tip_size": 0.0007,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "global_size": 0.007
+    }
+  ],
+  "element": [
+    {
+      "case": "285_1",
+      "element": 285,
+      "tip_size": 0.0035,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    },
+    {
+      "case": "285_2",
+      "element": 285,
+      "tip_size": 0.0025,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    },
+    {
+      "case": "285_3",
+      "element": 285,
+      "tip_size": 0.0018,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    },
+    {
+      "case": "187_1",
+      "element": 187,
+      "tip_size": 0.0035,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    },
+    {
+      "case": "187_2",
+      "element": 187,
+      "tip_size": 0.0025,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    },
+    {
+      "case": "187_3",
+      "element": 187,
+      "tip_size": 0.0018,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10
+    }
+  ],
+  "linear_verification": [
+    {
+      "case": "baseline_linear",
+      "element": 285,
+      "tip_size": 0.0025,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "linear": true
+    },
+    {
+      "case": "working_linear",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01,
+      "linear": true
+    }
+  ],
+  "table": [
+    {
+      "case": "n10",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 10,
+      "global_size": 0.01
+    },
+    {
+      "case": "n21",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 21,
+      "global_size": 0.01
+    },
+    {
+      "case": "n41",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 41,
+      "global_size": 0.01
+    },
+    {
+      "case": "n81",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    }
+  ],
+  "load": [
+    {
+      "case": "p5000",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 5000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "p7500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 7500.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "p10000",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "p12500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 12500.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "p15000",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 15000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    }
+  ],
+  "material": [
+    {
+      "case": "E1",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 8000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E2",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E3",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 12000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    }
+  ],
+  "doe": [
+    {
+      "case": "E1p7500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 7500.0,
+      "ex": 8000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E1p10000",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 8000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E1p12500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 12500.0,
+      "ex": 8000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E2p7500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 7500.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E2p10000",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E2p12500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 12500.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E3p7500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 7500.0,
+      "ex": 12000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E3p10000",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 12000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "E3p12500",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 12500.0,
+      "ex": 12000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    }
+  ],
+  "dense_mesh": [
+    {
+      "case": "h4",
+      "element": 187,
+      "tip_size": 0.0014,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.014
+    },
+    {
+      "case": "h5",
+      "element": 187,
+      "tip_size": 0.001,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.01
+    },
+    {
+      "case": "h6",
+      "element": 187,
+      "tip_size": 0.0007,
+      "pressure": 10000.0,
+      "ex": 10000000.0,
+      "nu": 0.27,
+      "load_points": 81,
+      "global_size": 0.007
+    }
+  ]
+}

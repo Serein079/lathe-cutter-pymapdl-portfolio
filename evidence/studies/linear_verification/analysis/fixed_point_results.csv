@@ -1,0 +1,3 @@
+﻿case,element,tip_size_in,global_size_in,nodes,elements,nominal_pressure_peak_psi,youngs_modulus_psi,pressure_table_points,nlgeom,probe_s1_psi,probe_vm_psi,probe_u_in
+advanced_20261008_linear_verification_baseline_linear,SOLID285,0.0025,,1248,4863,10000,10000000.0,10,False,941.7181641538449,7325.155154258141,0.0004847642325182789
+advanced_20261008_linear_verification_working_linear,SOLID187,0.001,0.01,34461,22199,10000,10000000.0,81,False,379.7577843986659,8942.984815027841,0.0005795297559318591

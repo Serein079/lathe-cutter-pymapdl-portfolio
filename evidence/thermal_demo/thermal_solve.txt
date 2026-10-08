@@ -1,0 +1,63 @@
+*****  MAPDL SOLVE    COMMAND  *****
+
+ *** NOTE ***                            ELAPSED TIME =       0.000   TIME= 00:00:00
+ There is no title defined for this analysis.                            
+   *****MAPDL VERIFICATION RUN ONLY*****
+     DO NOT USE RESULTS FOR PRODUCTION
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . TEMP
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .STATIC (STEADY-STATE)
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
+
+ *** NOTE ***                            ELAPSED TIME =       0.000   TIME= 00:00:00
+ Present time 0 is less than or equal to the previous time.  Time will   
+ default to 1.                                                           
+
+ *** NOTE ***                            ELAPSED TIME =       0.000   TIME= 00:00:00
+ The conditions for direct assembly have been met.  No .emat or .erot    
+ files will be produced.                                                 
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   NUMBER OF SUBSTEPS. . . . . . . . . . . . . . .     1
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS. . . . . . . . . . . .ALL DATA WRITTEN
+                                                  FOR THE LAST SUBSTEP
+
+
+
+ Range of element maximum matrix coefficients in global coordinates
+ Maximum = 0.168876379 at element 0.                                     
+ Minimum = 4.028893768E-02 at element 0.                                 
+
+   *** ELEMENT MATRIX FORMULATION TIMES
+     TYPE    NUMBER     ENAME   TOTAL ELAPSED   AVG ELAPSED
+
+        1      1324   SOLID87          0.0000   0.000000000
+ Elapsed Time at end of element matrix formulation = 0.                  
+
+ SPARSE MATRIX DIRECT SOLVER.
+  Number of equations =        2213,    Maximum wavefront =      0
+  Memory available (MB) =    0.0    ,  Memory required (MB) =    0.0    
+
+ Sparse solver maximum pivot= 0 at node 0 .                              
+ Sparse solver minimum pivot= 0 at node 0 .                              
+ Sparse solver minimum pivot in absolute value= 0 at node 0 .            
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER     ENAME   TOTAL ELAPSED   AVG ELAPSED
+
+        1      1324   SOLID87          0.0000   0.000000000
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER     ENAME   TOTAL ELAPSED   AVG ELAPSED
+
+        1      1324   SOLID87          0.0000   0.000000000
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX

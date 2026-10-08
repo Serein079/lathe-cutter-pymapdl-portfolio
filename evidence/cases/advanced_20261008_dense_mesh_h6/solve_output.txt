@@ -1,0 +1,102 @@
+*****  MAPDL SOLVE    COMMAND  *****
+
+ TRANSFER SOLID MODEL BOUNDARY CONDITIONS TO FINITE ELEMENT MODEL
+      SYMM/ASYM CONSTRAINTS      FROM AREAS         =   2583
+
+ *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
+                ---GIVE SUGGESTIONS ONLY---
+
+ ELEMENT TYPE         1 IS SOLID187. IT IS NOT ASSOCIATED WITH FULLY INCOMPRESSIBLE
+ HYPERELASTIC MATERIALS. NO SUGGESTION IS AVAILABLE.
+
+
+   *****MAPDL VERIFICATION RUN ONLY*****
+     DO NOT USE RESULTS FOR PRODUCTION
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . UX   UY   UZ  
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .STATIC (STEADY-STATE)
+   NONLINEAR GEOMETRIC EFFECTS . . . . . . . . . .ON
+   NEWTON-RAPHSON OPTION . . . . . . . . . . . . .PROGRAM CHOSEN   
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
+
+ *** NOTE ***                            ELAPSED TIME =       0.000   TIME= 00:00:00
+ Present time 0 is less than or equal to the previous time.  Time will   
+ default to 1.                                                           
+
+ *** NOTE ***                            ELAPSED TIME =       0.000   TIME= 00:00:00
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** NOTE ***                            ELAPSED TIME =       0.000   TIME= 00:00:00
+ The conditions for direct assembly have been met.  No .emat or .erot    
+ files will be produced.                                                 
+
+ *** WARNING ***                         ELAPSED TIME =       0.000   TIME= 00:00:00
+ The program chosen initial timestep/load-factor is arbitrary.  It is    
+ necessary for the user to supply a suitable initial                     
+ timestep/load-factor through the NSUB or DELTIM command for             
+ convergence and overall efficiency.                                     
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .  1000
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+      START WITH TIME STEP FROM PREVIOUS SUBSTEP .   YES
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   CONVERGENCE CONTROLS. . . . . . . . . . . . . .USE DEFAULTS
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS. . . . . . . . . . . .ALL DATA WRITTEN
+                                                  FOR THE LAST SUBSTEP
+
+
+
+ Range of element maximum matrix coefficients in global coordinates
+ Maximum = 335604.615 at element 0.                                      
+ Minimum = 2534.33843 at element 0.                                      
+
+   *** ELEMENT MATRIX FORMULATION TIMES
+     TYPE    NUMBER     ENAME   TOTAL ELAPSED   AVG ELAPSED
+
+        1     63171  SOLID187          0.0000   0.000000000
+ Elapsed Time at end of element matrix formulation = 0.                  
+
+ ALL CURRENT MAPDL DATA WRITTEN TO FILE NAME= 
+  FOR POSSIBLE RESUME FROM THIS POINT
+     FORCE CONVERGENCE VALUE  =  0.6274E-01  CRITERION=  0.3137E-03
+
+ SPARSE MATRIX DIRECT SOLVER.
+  Number of equations =      278940,    Maximum wavefront =      0
+  Memory available (MB) =    0.0    ,  Memory required (MB) =    0.0    
+
+ Sparse solver maximum pivot= 0 at node 0 .                              
+ Sparse solver minimum pivot= 0 at node 0 .                              
+ Sparse solver minimum pivot in absolute value= 0 at node 0 .            
+     DISP CONVERGENCE VALUE   =  0.5988E-03  CRITERION=  0.2994E-04
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.5988E-03
+     FORCE CONVERGENCE VALUE  =  0.4046E-01  CRITERION=  0.1004E-01
+     DISP CONVERGENCE VALUE   =  0.2830E-05  CRITERION=  0.2997E-04 <<< CONVERGED
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.2830E-05
+     FORCE CONVERGENCE VALUE  =  0.5622E-04  CRITERION=  0.1004E-01 <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   2
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER     ENAME   TOTAL ELAPSED   AVG ELAPSED
+
+        1     63171  SOLID187          0.0000   0.000000000
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER     ENAME   TOTAL ELAPSED   AVG ELAPSED
+
+        1     63171  SOLID187          0.0000   0.000000000
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      2
+ *** TIME =   1.00000         TIME INC =   1.00000
