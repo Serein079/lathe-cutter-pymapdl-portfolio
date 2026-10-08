@@ -95,7 +95,7 @@ $env:PYMAPDL_NPROC = '2'
 1. [方法、假设和判据](docs/METHODS.md)：了解模型、单位、约束和结果的适用范围。
 2. [复现与进阶操作](docs/REPRODUCE.md)：从基线到验证、边界研究和真实工况扩展。
 3. [中文项目报告（PDF）](docs/project-report-cn.pdf)：27 页历史执行报告，包含完整结果和图像。
-4. [全部图片索引](docs/gallery.html)：
+4. [全部图片索引](docs/gallery.html)
 
 历史 PDF 记录了原执行环境的路径和命令；本仓库的可移植执行方式以本 README 为准。整理版脚本已做离线验证与后处理核对，未在每一种安装环境重新执行 48 个算例。
 
